@@ -1,0 +1,9 @@
+geopandas
+shapely
+rasterio
+langchain
+chromadb
+openai
+python-dotenv
+folium
+streamlit
