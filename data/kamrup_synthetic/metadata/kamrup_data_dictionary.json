@@ -1,0 +1,240 @@
+{
+  "project": "RPS-01: Chain-of-Thought LLM for Spatial Analysis \u2014 Kamrup Flood Dataset",
+  "district": "Kamrup, Assam, India",
+  "crs": "EPSG:4326 (WGS84 Geographic)",
+  "bbox": {
+    "lat_min": 25.46,
+    "lat_max": 26.49,
+    "lon_min": 90.48,
+    "lon_max": 91.5
+  },
+  "data_status": "REAL: District shapefile (Assam_Districts_Shapefiles), Roads/Rivers/Villages/LandUse (from Overpass). SYNTHETIC: All raster layers + fault lines + population grid + flood records",
+  "layers": {
+    "RASTER": {
+      "kamrup_dem_30m.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid (load in QGIS as raster)",
+        "equivalent": "GeoTIFF",
+        "description": "Digital Elevation Model \u2014 Brahmaputra floodplain (~20-60m), Meghalaya foothills (~60-200m)",
+        "unit": "metres",
+        "resolution_approx": "~2km (prototype scale)",
+        "nodata": -9999,
+        "model_use": "Primary flood risk input \u2014 low elevation = high inundation probability"
+      },
+      "kamrup_slope.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "equivalent": "GeoTIFF",
+        "description": "Slope derived from DEM. Floodplain 0-2\u00b0, hillslopes 5-25\u00b0",
+        "unit": "degrees",
+        "resolution_approx": "~2km",
+        "model_use": "Slope inversely correlated with flood pooling depth"
+      },
+      "kamrup_elevation_class.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "description": "Classified elevation: 1=Low floodplain(<30m) 2=Mid(30-60m) 3=Upland(60-100m) 4=Lower hills(100-200m) 5=Hills(>200m)",
+        "unit": "class (1-5)",
+        "model_use": "Categorical feature for ML flood zone classification"
+      },
+      "kamrup_rainfall_annual_mm.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "equivalent": "GeoTIFF from IMD NetCDF",
+        "description": "Mean annual rainfall. Higher in south due to Meghalaya orographic effect (1600-2200mm)",
+        "unit": "mm/year",
+        "model_use": "Spatial rainfall predictor for flood frequency model"
+      },
+      "kamrup_temperature_mean_c.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "equivalent": "GeoTIFF from IMD NetCDF",
+        "description": "Mean annual temperature. 22-26\u00b0C range. Slight lapse rate northward.",
+        "unit": "degrees Celsius",
+        "model_use": "Secondary climate feature for evapotranspiration estimation"
+      },
+      "kamrup_ndvi_sentinel2.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "equivalent": "Sentinel-2 GeoTIFF band composite",
+        "description": "NDVI proxy from synthetic Sentinel-2 June 2023. Forest=0.6-0.85, Agri=0.3-0.6, Water/Urban=-0.1-0.2",
+        "unit": "NDVI index (-1 to 1)",
+        "model_use": "Land cover proxy; low NDVI areas correlate with urban flood risk"
+      },
+      "kamrup_flood_depth_2022.asc": {
+        "type": "Raster",
+        "format": "ESRI ASCII Grid",
+        "equivalent": "SAR-derived flood depth GeoTIFF",
+        "description": "Estimated flood inundation depth during 2022 peak monsoon event. Based on DEM + proximity to Brahmaputra channel.",
+        "unit": "metres",
+        "model_use": "Ground truth / training label raster for inundation prediction"
+      }
+    },
+    "VECTOR_SYNTHETIC": {
+      "kamrup_fault_lines.geojson": {
+        "type": "Vector LineString",
+        "format": "GeoJSON",
+        "equivalent": "GSI Bhukosh Shapefile",
+        "description": "Active and potentially active fault lines \u2014 Kopili Fault, Naga Thrust, Brahmaputra Fault Zone etc.",
+        "attributes": [
+          "fault_id",
+          "name",
+          "fault_type",
+          "activity_status",
+          "dip_direction",
+          "dip_angle_deg",
+          "length_km"
+        ],
+        "model_use": "Seismic hazard co-variate; embankment vulnerability near faults"
+      },
+      "kamrup_landuse_lulc.geojson": {
+        "type": "Vector Polygon",
+        "format": "GeoJSON",
+        "equivalent": "Bhuvan LULC Shapefile",
+        "description": "57 LULC polygons \u2014 Kharif/Rabi cropland, dense/open forest, waterbody, built-up, fallow, grassland",
+        "attributes": [
+          "lulc_id",
+          "lulc_class",
+          "lulc_type",
+          "area_ha",
+          "ndvi_mean",
+          "flood_vulnerable"
+        ],
+        "model_use": "Land cover intersected with flood depth for damage estimation"
+      },
+      "kamrup_population_grid.geojson": {
+        "type": "Vector Polygon",
+        "format": "GeoJSON",
+        "equivalent": "WorldPop raster clipped to Kamrup",
+        "description": "100 grid cells (~0.1\u00b0 resolution). Population density peaks near Guwahati fringe.",
+        "attributes": [
+          "grid_id",
+          "block",
+          "population_2020",
+          "pop_density_km2",
+          "households",
+          "flood_exposed_pct"
+        ],
+        "model_use": "Exposure assessment \u2014 population \u00d7 flood inundation depth = risk score"
+      }
+    },
+    "VECTOR_REAL": {
+      "Assam_Districts_Shapefiles.shp": {
+        "type": "Vector Polygon",
+        "format": "Shapefile (all sidecar files required)",
+        "description": "All 33 Assam districts. Filter by Dist_Name='Kamrup' for project area.",
+        "attributes": [
+          "Dist_Name",
+          "State_Name"
+        ],
+        "crs": "EPSG:4326",
+        "fields": {
+          "Dist_Name": {
+            "type": "string",
+            "description": "District name"
+          },
+          "State_Name": {
+            "type": "string",
+            "description": "Always ASSAM"
+          }
+        }
+      },
+      "export.json (rivers \u2014 reclip needed)": {
+        "type": "OSM Ways",
+        "format": "Overpass JSON \u2192 convert to GeoJSON",
+        "description": "Waterway features (river, stream, canal). Bbox is wider than Kamrup \u2014 needs clipping.",
+        "overpass_corrected_query": "[out:json][timeout:60];\n(\n  way[\"waterway\"~\"river|stream|canal\"](25.46,90.48,26.49,91.50);\n);\nout geom;"
+      }
+    },
+    "FLOOD_RECORDS": {
+      "kamrup_flood_incidents_2010_2023.csv": {
+        "type": "Tabular",
+        "format": "CSV",
+        "rows": 43,
+        "description": "Individual flood events 2010-2023. 29 columns including severity, gauge, blocks affected, damage.",
+        "key_columns": {
+          "event_id": "str",
+          "year": "int",
+          "month": "int",
+          "severity": "Low/Moderate/Severe/Catastrophic",
+          "brahmaputra_gauge_m": "float",
+          "population_affected": "int",
+          "crop_area_damaged_ha": "float",
+          "flood_inundation_area_sqkm": "float",
+          "sdrf_released_lakh_inr": "float"
+        },
+        "model_use": "Primary training data for flood impact prediction"
+      },
+      "kamrup_annual_flood_summary_2010_2023.csv": {
+        "type": "Tabular",
+        "format": "CSV",
+        "rows": 14,
+        "description": "Yearly aggregated flood statistics 2010-2023 with ENSO phase and rainfall.",
+        "model_use": "Temporal trend analysis; ENSO-flood correlation feature"
+      },
+      "kamrup_monthly_rainfall_temperature_2010_2023.csv": {
+        "type": "Tabular",
+        "format": "CSV",
+        "rows": 168,
+        "description": "Monthly climate data from Guwahati IMD station 2010-2023. Rainfall, temp, humidity.",
+        "key_columns": {
+          "rainfall_mm": "float mm",
+          "temperature_max_c": "float \u00b0C",
+          "temperature_min_c": "float \u00b0C",
+          "rainy_days": "int",
+          "max_24h_rainfall_mm": "float mm"
+        },
+        "model_use": "Lag features for flood prediction (e.g. antecedent 3-month rainfall)"
+      },
+      "kamrup_brahmaputra_gauge_daily_2022.csv": {
+        "type": "Tabular",
+        "format": "CSV",
+        "rows": 184,
+        "description": "Daily Brahmaputra gauge readings May-Oct 2022 from Guwahati station. Danger level = 5.10m.",
+        "key_columns": {
+          "water_level_m": "float m",
+          "discharge_cumecs": "int",
+          "flood_status": "Normal/Warning/Danger",
+          "embankment_alert": "bool"
+        },
+        "model_use": "River gauge time series for early warning system training"
+      },
+      "kamrup_block_vulnerability.csv": {
+        "type": "Tabular",
+        "format": "CSV",
+        "rows": 12,
+        "description": "Block-level vulnerability indicators for 12 Kamrup blocks.",
+        "key_columns": {
+          "composite_vulnerability_score": "0-1 float",
+          "flood_risk_zone": "High/Medium/Low",
+          "embankment_condition": "Good/Fair/Poor/Critical"
+        },
+        "model_use": "Spatial join target \u2014 attach vulnerability scores to incident records"
+      },
+      "kamrup_flood_incidents_spatial.geojson": {
+        "type": "Vector Point",
+        "format": "GeoJSON",
+        "description": "Spatially referenced version of flood_incidents \u2014 same data, geocoded by event epicentre.",
+        "model_use": "Spatial clustering, hotspot mapping, QGIS visualisation"
+      }
+    }
+  },
+  "rag_ingestion_notes": {
+    "chunk_strategy": "One JSON object per layer (this file) forms one RAG document. Each CSV row = one chunk. Each raster metadata JSON = one chunk.",
+    "embedding_fields": [
+      "description",
+      "unit",
+      "model_use",
+      "key_columns",
+      "attributes"
+    ],
+    "suggested_index_keys": [
+      "layer_name",
+      "data_type",
+      "format",
+      "model_use",
+      "crs",
+      "bbox"
+    ]
+  }
+}

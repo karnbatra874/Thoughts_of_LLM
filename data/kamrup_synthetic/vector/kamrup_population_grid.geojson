@@ -1,0 +1,3924 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamrup_population_grid",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "description": "100m WorldPop-style population grid aggregated to 0.1\u00b0 cells for Kamrup district. Density peaks near Guwahati fringe.",
+    "crs": "EPSG:4326",
+    "source": "Synthetic \u2014 modelled on OSM/ASDMA data structure for Kamrup district",
+    "bbox": [
+      90.48,
+      25.46,
+      91.5,
+      26.49
+    ],
+    "feature_count": 100
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.46
+            ],
+            [
+              90.58,
+              25.46
+            ],
+            [
+              90.58,
+              25.560000000000002
+            ],
+            [
+              90.48,
+              25.560000000000002
+            ],
+            [
+              90.48,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0001",
+        "block": "Chamaria",
+        "population_2020": 2902,
+        "pop_density_km2": 23.6,
+        "households": 644,
+        "flood_exposed_pct": 11.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.46
+            ],
+            [
+              90.67999999999999,
+              25.46
+            ],
+            [
+              90.67999999999999,
+              25.560000000000002
+            ],
+            [
+              90.58,
+              25.560000000000002
+            ],
+            [
+              90.58,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0002",
+        "block": "Nagarbera",
+        "population_2020": 1864,
+        "pop_density_km2": 15.1,
+        "households": 414,
+        "flood_exposed_pct": 60.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.46
+            ],
+            [
+              90.78,
+              25.46
+            ],
+            [
+              90.78,
+              25.560000000000002
+            ],
+            [
+              90.68,
+              25.560000000000002
+            ],
+            [
+              90.68,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0003",
+        "block": "Bezera",
+        "population_2020": 2104,
+        "pop_density_km2": 17.1,
+        "households": 467,
+        "flood_exposed_pct": 57.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.46
+            ],
+            [
+              90.88,
+              25.46
+            ],
+            [
+              90.88,
+              25.560000000000002
+            ],
+            [
+              90.78,
+              25.560000000000002
+            ],
+            [
+              90.78,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0004",
+        "block": "Bongaon",
+        "population_2020": 1495,
+        "pop_density_km2": 12.1,
+        "households": 332,
+        "flood_exposed_pct": 24.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.46
+            ],
+            [
+              90.97999999999999,
+              25.46
+            ],
+            [
+              90.97999999999999,
+              25.560000000000002
+            ],
+            [
+              90.88,
+              25.560000000000002
+            ],
+            [
+              90.88,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0005",
+        "block": "Rangia",
+        "population_2020": 2055,
+        "pop_density_km2": 16.7,
+        "households": 456,
+        "flood_exposed_pct": 57.2,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.46
+            ],
+            [
+              91.08,
+              25.46
+            ],
+            [
+              91.08,
+              25.560000000000002
+            ],
+            [
+              90.98,
+              25.560000000000002
+            ],
+            [
+              90.98,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0006",
+        "block": "Bongaon",
+        "population_2020": 1767,
+        "pop_density_km2": 14.3,
+        "households": 392,
+        "flood_exposed_pct": 21.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.46
+            ],
+            [
+              91.17999999999999,
+              25.46
+            ],
+            [
+              91.17999999999999,
+              25.560000000000002
+            ],
+            [
+              91.08,
+              25.560000000000002
+            ],
+            [
+              91.08,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0007",
+        "block": "Bongaon",
+        "population_2020": 2404,
+        "pop_density_km2": 19.5,
+        "households": 534,
+        "flood_exposed_pct": 22.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.46
+            ],
+            [
+              91.28,
+              25.46
+            ],
+            [
+              91.28,
+              25.560000000000002
+            ],
+            [
+              91.18,
+              25.560000000000002
+            ],
+            [
+              91.18,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0008",
+        "block": "Bezera",
+        "population_2020": 1772,
+        "pop_density_km2": 14.4,
+        "households": 393,
+        "flood_exposed_pct": 20.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.46
+            ],
+            [
+              91.38,
+              25.46
+            ],
+            [
+              91.38,
+              25.560000000000002
+            ],
+            [
+              91.28,
+              25.560000000000002
+            ],
+            [
+              91.28,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0009",
+        "block": "Hajo",
+        "population_2020": 1528,
+        "pop_density_km2": 12.4,
+        "households": 339,
+        "flood_exposed_pct": 29.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.46
+            ],
+            [
+              91.47999999999999,
+              25.46
+            ],
+            [
+              91.47999999999999,
+              25.560000000000002
+            ],
+            [
+              91.38,
+              25.560000000000002
+            ],
+            [
+              91.38,
+              25.46
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0010",
+        "block": "Palashbari",
+        "population_2020": 2881,
+        "pop_density_km2": 23.4,
+        "households": 640,
+        "flood_exposed_pct": 32.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.56
+            ],
+            [
+              90.58,
+              25.56
+            ],
+            [
+              90.58,
+              25.66
+            ],
+            [
+              90.48,
+              25.66
+            ],
+            [
+              90.48,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0011",
+        "block": "Rangia",
+        "population_2020": 2615,
+        "pop_density_km2": 21.2,
+        "households": 581,
+        "flood_exposed_pct": 16.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.56
+            ],
+            [
+              90.67999999999999,
+              25.56
+            ],
+            [
+              90.67999999999999,
+              25.66
+            ],
+            [
+              90.58,
+              25.66
+            ],
+            [
+              90.58,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0012",
+        "block": "Hajo",
+        "population_2020": 1926,
+        "pop_density_km2": 15.6,
+        "households": 428,
+        "flood_exposed_pct": 19.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.56
+            ],
+            [
+              90.78,
+              25.56
+            ],
+            [
+              90.78,
+              25.66
+            ],
+            [
+              90.68,
+              25.66
+            ],
+            [
+              90.68,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0013",
+        "block": "Chhaygaon",
+        "population_2020": 2381,
+        "pop_density_km2": 19.3,
+        "households": 529,
+        "flood_exposed_pct": 42.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.56
+            ],
+            [
+              90.88,
+              25.56
+            ],
+            [
+              90.88,
+              25.66
+            ],
+            [
+              90.78,
+              25.66
+            ],
+            [
+              90.78,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0014",
+        "block": "Kamalpur",
+        "population_2020": 1908,
+        "pop_density_km2": 15.5,
+        "households": 424,
+        "flood_exposed_pct": 50.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.56
+            ],
+            [
+              90.97999999999999,
+              25.56
+            ],
+            [
+              90.97999999999999,
+              25.66
+            ],
+            [
+              90.88,
+              25.66
+            ],
+            [
+              90.88,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0015",
+        "block": "Palashbari",
+        "population_2020": 1734,
+        "pop_density_km2": 14.1,
+        "households": 385,
+        "flood_exposed_pct": 16.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.56
+            ],
+            [
+              91.08,
+              25.56
+            ],
+            [
+              91.08,
+              25.66
+            ],
+            [
+              90.98,
+              25.66
+            ],
+            [
+              90.98,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0016",
+        "block": "Rani",
+        "population_2020": 2628,
+        "pop_density_km2": 21.3,
+        "households": 584,
+        "flood_exposed_pct": 20.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.56
+            ],
+            [
+              91.17999999999999,
+              25.56
+            ],
+            [
+              91.17999999999999,
+              25.66
+            ],
+            [
+              91.08,
+              25.66
+            ],
+            [
+              91.08,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0017",
+        "block": "Palashbari",
+        "population_2020": 2514,
+        "pop_density_km2": 20.4,
+        "households": 558,
+        "flood_exposed_pct": 60.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.56
+            ],
+            [
+              91.28,
+              25.56
+            ],
+            [
+              91.28,
+              25.66
+            ],
+            [
+              91.18,
+              25.66
+            ],
+            [
+              91.18,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0018",
+        "block": "Palashbari",
+        "population_2020": 2147,
+        "pop_density_km2": 17.4,
+        "households": 477,
+        "flood_exposed_pct": 47.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.56
+            ],
+            [
+              91.38,
+              25.56
+            ],
+            [
+              91.38,
+              25.66
+            ],
+            [
+              91.28,
+              25.66
+            ],
+            [
+              91.28,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0019",
+        "block": "Bongaon",
+        "population_2020": 2760,
+        "pop_density_km2": 22.4,
+        "households": 613,
+        "flood_exposed_pct": 30.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.56
+            ],
+            [
+              91.47999999999999,
+              25.56
+            ],
+            [
+              91.47999999999999,
+              25.66
+            ],
+            [
+              91.38,
+              25.66
+            ],
+            [
+              91.38,
+              25.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0020",
+        "block": "Chhaygaon",
+        "population_2020": 1700,
+        "pop_density_km2": 13.8,
+        "households": 377,
+        "flood_exposed_pct": 62.2,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.66
+            ],
+            [
+              90.58,
+              25.66
+            ],
+            [
+              90.58,
+              25.76
+            ],
+            [
+              90.48,
+              25.76
+            ],
+            [
+              90.48,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0021",
+        "block": "Bezera",
+        "population_2020": 2613,
+        "pop_density_km2": 21.2,
+        "households": 580,
+        "flood_exposed_pct": 56.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.66
+            ],
+            [
+              90.67999999999999,
+              25.66
+            ],
+            [
+              90.67999999999999,
+              25.76
+            ],
+            [
+              90.58,
+              25.76
+            ],
+            [
+              90.58,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0022",
+        "block": "Nagarbera",
+        "population_2020": 1666,
+        "pop_density_km2": 13.5,
+        "households": 370,
+        "flood_exposed_pct": 59.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.66
+            ],
+            [
+              90.78,
+              25.66
+            ],
+            [
+              90.78,
+              25.76
+            ],
+            [
+              90.68,
+              25.76
+            ],
+            [
+              90.68,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0023",
+        "block": "Kamalpur",
+        "population_2020": 1259,
+        "pop_density_km2": 10.2,
+        "households": 279,
+        "flood_exposed_pct": 32.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.66
+            ],
+            [
+              90.88,
+              25.66
+            ],
+            [
+              90.88,
+              25.76
+            ],
+            [
+              90.78,
+              25.76
+            ],
+            [
+              90.78,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0024",
+        "block": "Hajo",
+        "population_2020": 1966,
+        "pop_density_km2": 16.0,
+        "households": 436,
+        "flood_exposed_pct": 40.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.66
+            ],
+            [
+              90.97999999999999,
+              25.66
+            ],
+            [
+              90.97999999999999,
+              25.76
+            ],
+            [
+              90.88,
+              25.76
+            ],
+            [
+              90.88,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0025",
+        "block": "Chamaria",
+        "population_2020": 2264,
+        "pop_density_km2": 18.4,
+        "households": 503,
+        "flood_exposed_pct": 47.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.66
+            ],
+            [
+              91.08,
+              25.66
+            ],
+            [
+              91.08,
+              25.76
+            ],
+            [
+              90.98,
+              25.76
+            ],
+            [
+              90.98,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0026",
+        "block": "Boko",
+        "population_2020": 2690,
+        "pop_density_km2": 21.8,
+        "households": 597,
+        "flood_exposed_pct": 43.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.66
+            ],
+            [
+              91.17999999999999,
+              25.66
+            ],
+            [
+              91.17999999999999,
+              25.76
+            ],
+            [
+              91.08,
+              25.76
+            ],
+            [
+              91.08,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0027",
+        "block": "Rangia",
+        "population_2020": 1801,
+        "pop_density_km2": 14.6,
+        "households": 400,
+        "flood_exposed_pct": 26.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.66
+            ],
+            [
+              91.28,
+              25.66
+            ],
+            [
+              91.28,
+              25.76
+            ],
+            [
+              91.18,
+              25.76
+            ],
+            [
+              91.18,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0028",
+        "block": "Bongaon",
+        "population_2020": 2598,
+        "pop_density_km2": 21.1,
+        "households": 577,
+        "flood_exposed_pct": 33.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.66
+            ],
+            [
+              91.38,
+              25.66
+            ],
+            [
+              91.38,
+              25.76
+            ],
+            [
+              91.28,
+              25.76
+            ],
+            [
+              91.28,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0029",
+        "block": "Goroimari",
+        "population_2020": 1360,
+        "pop_density_km2": 11.0,
+        "households": 302,
+        "flood_exposed_pct": 34.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.66
+            ],
+            [
+              91.47999999999999,
+              25.66
+            ],
+            [
+              91.47999999999999,
+              25.76
+            ],
+            [
+              91.38,
+              25.76
+            ],
+            [
+              91.38,
+              25.66
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0030",
+        "block": "Bezera",
+        "population_2020": 1648,
+        "pop_density_km2": 13.4,
+        "households": 366,
+        "flood_exposed_pct": 21.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.76
+            ],
+            [
+              90.58,
+              25.76
+            ],
+            [
+              90.58,
+              25.860000000000003
+            ],
+            [
+              90.48,
+              25.860000000000003
+            ],
+            [
+              90.48,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0031",
+        "block": "Nagarbera",
+        "population_2020": 939,
+        "pop_density_km2": 7.6,
+        "households": 208,
+        "flood_exposed_pct": 19.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.76
+            ],
+            [
+              90.67999999999999,
+              25.76
+            ],
+            [
+              90.67999999999999,
+              25.860000000000003
+            ],
+            [
+              90.58,
+              25.860000000000003
+            ],
+            [
+              90.58,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0032",
+        "block": "Chhaygaon",
+        "population_2020": 2180,
+        "pop_density_km2": 17.7,
+        "households": 484,
+        "flood_exposed_pct": 25.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.76
+            ],
+            [
+              90.78,
+              25.76
+            ],
+            [
+              90.78,
+              25.860000000000003
+            ],
+            [
+              90.68,
+              25.860000000000003
+            ],
+            [
+              90.68,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0033",
+        "block": "Chhaygaon",
+        "population_2020": 1641,
+        "pop_density_km2": 13.3,
+        "households": 364,
+        "flood_exposed_pct": 55.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.76
+            ],
+            [
+              90.88,
+              25.76
+            ],
+            [
+              90.88,
+              25.860000000000003
+            ],
+            [
+              90.78,
+              25.860000000000003
+            ],
+            [
+              90.78,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0034",
+        "block": "Bongaon",
+        "population_2020": 1404,
+        "pop_density_km2": 11.4,
+        "households": 312,
+        "flood_exposed_pct": 47.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.76
+            ],
+            [
+              90.97999999999999,
+              25.76
+            ],
+            [
+              90.97999999999999,
+              25.860000000000003
+            ],
+            [
+              90.88,
+              25.860000000000003
+            ],
+            [
+              90.88,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0035",
+        "block": "Rangia",
+        "population_2020": 2052,
+        "pop_density_km2": 16.7,
+        "households": 456,
+        "flood_exposed_pct": 12.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.76
+            ],
+            [
+              91.08,
+              25.76
+            ],
+            [
+              91.08,
+              25.860000000000003
+            ],
+            [
+              90.98,
+              25.860000000000003
+            ],
+            [
+              90.98,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0036",
+        "block": "Goroimari",
+        "population_2020": 2328,
+        "pop_density_km2": 18.9,
+        "households": 517,
+        "flood_exposed_pct": 43.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.76
+            ],
+            [
+              91.17999999999999,
+              25.76
+            ],
+            [
+              91.17999999999999,
+              25.860000000000003
+            ],
+            [
+              91.08,
+              25.860000000000003
+            ],
+            [
+              91.08,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0037",
+        "block": "Bezera",
+        "population_2020": 2063,
+        "pop_density_km2": 16.7,
+        "households": 458,
+        "flood_exposed_pct": 41.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.76
+            ],
+            [
+              91.28,
+              25.76
+            ],
+            [
+              91.28,
+              25.860000000000003
+            ],
+            [
+              91.18,
+              25.860000000000003
+            ],
+            [
+              91.18,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0038",
+        "block": "Nagarbera",
+        "population_2020": 1452,
+        "pop_density_km2": 11.8,
+        "households": 322,
+        "flood_exposed_pct": 48.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.76
+            ],
+            [
+              91.38,
+              25.76
+            ],
+            [
+              91.38,
+              25.860000000000003
+            ],
+            [
+              91.28,
+              25.860000000000003
+            ],
+            [
+              91.28,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0039",
+        "block": "Bezera",
+        "population_2020": 1626,
+        "pop_density_km2": 13.2,
+        "households": 361,
+        "flood_exposed_pct": 47.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.76
+            ],
+            [
+              91.47999999999999,
+              25.76
+            ],
+            [
+              91.47999999999999,
+              25.860000000000003
+            ],
+            [
+              91.38,
+              25.860000000000003
+            ],
+            [
+              91.38,
+              25.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0040",
+        "block": "Chhaygaon",
+        "population_2020": 2013,
+        "pop_density_km2": 16.3,
+        "households": 447,
+        "flood_exposed_pct": 52.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.86
+            ],
+            [
+              90.58,
+              25.86
+            ],
+            [
+              90.58,
+              25.96
+            ],
+            [
+              90.48,
+              25.96
+            ],
+            [
+              90.48,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0041",
+        "block": "Nagarbera",
+        "population_2020": 2175,
+        "pop_density_km2": 17.7,
+        "households": 483,
+        "flood_exposed_pct": 38.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.86
+            ],
+            [
+              90.67999999999999,
+              25.86
+            ],
+            [
+              90.67999999999999,
+              25.96
+            ],
+            [
+              90.58,
+              25.96
+            ],
+            [
+              90.58,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0042",
+        "block": "Rangia",
+        "population_2020": 2885,
+        "pop_density_km2": 23.4,
+        "households": 641,
+        "flood_exposed_pct": 40.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.86
+            ],
+            [
+              90.78,
+              25.86
+            ],
+            [
+              90.78,
+              25.96
+            ],
+            [
+              90.68,
+              25.96
+            ],
+            [
+              90.68,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0043",
+        "block": "Boko",
+        "population_2020": 2220,
+        "pop_density_km2": 18.0,
+        "households": 493,
+        "flood_exposed_pct": 54.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.86
+            ],
+            [
+              90.88,
+              25.86
+            ],
+            [
+              90.88,
+              25.96
+            ],
+            [
+              90.78,
+              25.96
+            ],
+            [
+              90.78,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0044",
+        "block": "Bezera",
+        "population_2020": 1873,
+        "pop_density_km2": 15.2,
+        "households": 416,
+        "flood_exposed_pct": 39.2,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.86
+            ],
+            [
+              90.97999999999999,
+              25.86
+            ],
+            [
+              90.97999999999999,
+              25.96
+            ],
+            [
+              90.88,
+              25.96
+            ],
+            [
+              90.88,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0045",
+        "block": "Goroimari",
+        "population_2020": 1592,
+        "pop_density_km2": 12.9,
+        "households": 353,
+        "flood_exposed_pct": 43.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.86
+            ],
+            [
+              91.08,
+              25.86
+            ],
+            [
+              91.08,
+              25.96
+            ],
+            [
+              90.98,
+              25.96
+            ],
+            [
+              90.98,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0046",
+        "block": "Nagarbera",
+        "population_2020": 1841,
+        "pop_density_km2": 14.9,
+        "households": 409,
+        "flood_exposed_pct": 59.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.86
+            ],
+            [
+              91.17999999999999,
+              25.86
+            ],
+            [
+              91.17999999999999,
+              25.96
+            ],
+            [
+              91.08,
+              25.96
+            ],
+            [
+              91.08,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0047",
+        "block": "Goroimari",
+        "population_2020": 1023,
+        "pop_density_km2": 8.3,
+        "households": 227,
+        "flood_exposed_pct": 59.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.86
+            ],
+            [
+              91.28,
+              25.86
+            ],
+            [
+              91.28,
+              25.96
+            ],
+            [
+              91.18,
+              25.96
+            ],
+            [
+              91.18,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0048",
+        "block": "Nagarbera",
+        "population_2020": 2483,
+        "pop_density_km2": 20.2,
+        "households": 551,
+        "flood_exposed_pct": 57.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.86
+            ],
+            [
+              91.38,
+              25.86
+            ],
+            [
+              91.38,
+              25.96
+            ],
+            [
+              91.28,
+              25.96
+            ],
+            [
+              91.28,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0049",
+        "block": "Bezera",
+        "population_2020": 1206,
+        "pop_density_km2": 9.8,
+        "households": 268,
+        "flood_exposed_pct": 25.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.86
+            ],
+            [
+              91.47999999999999,
+              25.86
+            ],
+            [
+              91.47999999999999,
+              25.96
+            ],
+            [
+              91.38,
+              25.96
+            ],
+            [
+              91.38,
+              25.86
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0050",
+        "block": "Palashbari",
+        "population_2020": 2257,
+        "pop_density_km2": 18.3,
+        "households": 501,
+        "flood_exposed_pct": 36.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              25.96
+            ],
+            [
+              90.58,
+              25.96
+            ],
+            [
+              90.58,
+              26.060000000000002
+            ],
+            [
+              90.48,
+              26.060000000000002
+            ],
+            [
+              90.48,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0051",
+        "block": "Nagarbera",
+        "population_2020": 2036,
+        "pop_density_km2": 16.5,
+        "households": 452,
+        "flood_exposed_pct": 25.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              25.96
+            ],
+            [
+              90.67999999999999,
+              25.96
+            ],
+            [
+              90.67999999999999,
+              26.060000000000002
+            ],
+            [
+              90.58,
+              26.060000000000002
+            ],
+            [
+              90.58,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0052",
+        "block": "Hajo",
+        "population_2020": 2537,
+        "pop_density_km2": 20.6,
+        "households": 563,
+        "flood_exposed_pct": 28.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              25.96
+            ],
+            [
+              90.78,
+              25.96
+            ],
+            [
+              90.78,
+              26.060000000000002
+            ],
+            [
+              90.68,
+              26.060000000000002
+            ],
+            [
+              90.68,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0053",
+        "block": "Boko",
+        "population_2020": 2160,
+        "pop_density_km2": 17.5,
+        "households": 480,
+        "flood_exposed_pct": 22.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              25.96
+            ],
+            [
+              90.88,
+              25.96
+            ],
+            [
+              90.88,
+              26.060000000000002
+            ],
+            [
+              90.78,
+              26.060000000000002
+            ],
+            [
+              90.78,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0054",
+        "block": "Nagarbera",
+        "population_2020": 1872,
+        "pop_density_km2": 15.2,
+        "households": 416,
+        "flood_exposed_pct": 18.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              25.96
+            ],
+            [
+              90.97999999999999,
+              25.96
+            ],
+            [
+              90.97999999999999,
+              26.060000000000002
+            ],
+            [
+              90.88,
+              26.060000000000002
+            ],
+            [
+              90.88,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0055",
+        "block": "Kamalpur",
+        "population_2020": 2116,
+        "pop_density_km2": 17.2,
+        "households": 470,
+        "flood_exposed_pct": 39.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              25.96
+            ],
+            [
+              91.08,
+              25.96
+            ],
+            [
+              91.08,
+              26.060000000000002
+            ],
+            [
+              90.98,
+              26.060000000000002
+            ],
+            [
+              90.98,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0056",
+        "block": "Chamaria",
+        "population_2020": 2504,
+        "pop_density_km2": 20.3,
+        "households": 556,
+        "flood_exposed_pct": 13.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              25.96
+            ],
+            [
+              91.17999999999999,
+              25.96
+            ],
+            [
+              91.17999999999999,
+              26.060000000000002
+            ],
+            [
+              91.08,
+              26.060000000000002
+            ],
+            [
+              91.08,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0057",
+        "block": "Rani",
+        "population_2020": 2247,
+        "pop_density_km2": 18.2,
+        "households": 499,
+        "flood_exposed_pct": 62.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              25.96
+            ],
+            [
+              91.28,
+              25.96
+            ],
+            [
+              91.28,
+              26.060000000000002
+            ],
+            [
+              91.18,
+              26.060000000000002
+            ],
+            [
+              91.18,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0058",
+        "block": "Rangia",
+        "population_2020": 1569,
+        "pop_density_km2": 12.7,
+        "households": 348,
+        "flood_exposed_pct": 57.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              25.96
+            ],
+            [
+              91.38,
+              25.96
+            ],
+            [
+              91.38,
+              26.060000000000002
+            ],
+            [
+              91.28,
+              26.060000000000002
+            ],
+            [
+              91.28,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0059",
+        "block": "Rangia",
+        "population_2020": 2047,
+        "pop_density_km2": 16.6,
+        "households": 454,
+        "flood_exposed_pct": 61.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              25.96
+            ],
+            [
+              91.47999999999999,
+              25.96
+            ],
+            [
+              91.47999999999999,
+              26.060000000000002
+            ],
+            [
+              91.38,
+              26.060000000000002
+            ],
+            [
+              91.38,
+              25.96
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0060",
+        "block": "Hajo",
+        "population_2020": 1513,
+        "pop_density_km2": 12.3,
+        "households": 336,
+        "flood_exposed_pct": 51.4,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              26.06
+            ],
+            [
+              90.58,
+              26.06
+            ],
+            [
+              90.58,
+              26.16
+            ],
+            [
+              90.48,
+              26.16
+            ],
+            [
+              90.48,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0061",
+        "block": "Chamaria",
+        "population_2020": 2749,
+        "pop_density_km2": 22.3,
+        "households": 610,
+        "flood_exposed_pct": 39.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              26.06
+            ],
+            [
+              90.67999999999999,
+              26.06
+            ],
+            [
+              90.67999999999999,
+              26.16
+            ],
+            [
+              90.58,
+              26.16
+            ],
+            [
+              90.58,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0062",
+        "block": "Nagarbera",
+        "population_2020": 1014,
+        "pop_density_km2": 8.2,
+        "households": 225,
+        "flood_exposed_pct": 40.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              26.06
+            ],
+            [
+              90.78,
+              26.06
+            ],
+            [
+              90.78,
+              26.16
+            ],
+            [
+              90.68,
+              26.16
+            ],
+            [
+              90.68,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0063",
+        "block": "Bongaon",
+        "population_2020": 1718,
+        "pop_density_km2": 13.9,
+        "households": 381,
+        "flood_exposed_pct": 25.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              26.06
+            ],
+            [
+              90.88,
+              26.06
+            ],
+            [
+              90.88,
+              26.16
+            ],
+            [
+              90.78,
+              26.16
+            ],
+            [
+              90.78,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0064",
+        "block": "Goroimari",
+        "population_2020": 1786,
+        "pop_density_km2": 14.5,
+        "households": 396,
+        "flood_exposed_pct": 11.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              26.06
+            ],
+            [
+              90.97999999999999,
+              26.06
+            ],
+            [
+              90.97999999999999,
+              26.16
+            ],
+            [
+              90.88,
+              26.16
+            ],
+            [
+              90.88,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0065",
+        "block": "Chamaria",
+        "population_2020": 1611,
+        "pop_density_km2": 13.1,
+        "households": 358,
+        "flood_exposed_pct": 49.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              26.06
+            ],
+            [
+              91.08,
+              26.06
+            ],
+            [
+              91.08,
+              26.16
+            ],
+            [
+              90.98,
+              26.16
+            ],
+            [
+              90.98,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0066",
+        "block": "Goroimari",
+        "population_2020": 2646,
+        "pop_density_km2": 21.5,
+        "households": 588,
+        "flood_exposed_pct": 60.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              26.06
+            ],
+            [
+              91.17999999999999,
+              26.06
+            ],
+            [
+              91.17999999999999,
+              26.16
+            ],
+            [
+              91.08,
+              26.16
+            ],
+            [
+              91.08,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0067",
+        "block": "Chamaria",
+        "population_2020": 2613,
+        "pop_density_km2": 21.2,
+        "households": 580,
+        "flood_exposed_pct": 42.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              26.06
+            ],
+            [
+              91.28,
+              26.06
+            ],
+            [
+              91.28,
+              26.16
+            ],
+            [
+              91.18,
+              26.16
+            ],
+            [
+              91.18,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0068",
+        "block": "Bezera",
+        "population_2020": 1925,
+        "pop_density_km2": 15.6,
+        "households": 427,
+        "flood_exposed_pct": 11.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              26.06
+            ],
+            [
+              91.38,
+              26.06
+            ],
+            [
+              91.38,
+              26.16
+            ],
+            [
+              91.28,
+              26.16
+            ],
+            [
+              91.28,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0069",
+        "block": "Goroimari",
+        "population_2020": 1831,
+        "pop_density_km2": 14.9,
+        "households": 406,
+        "flood_exposed_pct": 20.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              26.06
+            ],
+            [
+              91.47999999999999,
+              26.06
+            ],
+            [
+              91.47999999999999,
+              26.16
+            ],
+            [
+              91.38,
+              26.16
+            ],
+            [
+              91.38,
+              26.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0070",
+        "block": "Hajo",
+        "population_2020": 1788,
+        "pop_density_km2": 14.5,
+        "households": 397,
+        "flood_exposed_pct": 30.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              26.16
+            ],
+            [
+              90.58,
+              26.16
+            ],
+            [
+              90.58,
+              26.26
+            ],
+            [
+              90.48,
+              26.26
+            ],
+            [
+              90.48,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0071",
+        "block": "Chamaria",
+        "population_2020": 2106,
+        "pop_density_km2": 17.1,
+        "households": 468,
+        "flood_exposed_pct": 25.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              26.16
+            ],
+            [
+              90.67999999999999,
+              26.16
+            ],
+            [
+              90.67999999999999,
+              26.26
+            ],
+            [
+              90.58,
+              26.26
+            ],
+            [
+              90.58,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0072",
+        "block": "Chamaria",
+        "population_2020": 2432,
+        "pop_density_km2": 19.7,
+        "households": 540,
+        "flood_exposed_pct": 23.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              26.16
+            ],
+            [
+              90.78,
+              26.16
+            ],
+            [
+              90.78,
+              26.26
+            ],
+            [
+              90.68,
+              26.26
+            ],
+            [
+              90.68,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0073",
+        "block": "Palashbari",
+        "population_2020": 2086,
+        "pop_density_km2": 16.9,
+        "households": 463,
+        "flood_exposed_pct": 12.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              26.16
+            ],
+            [
+              90.88,
+              26.16
+            ],
+            [
+              90.88,
+              26.26
+            ],
+            [
+              90.78,
+              26.26
+            ],
+            [
+              90.78,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0074",
+        "block": "Kamalpur",
+        "population_2020": 2048,
+        "pop_density_km2": 16.6,
+        "households": 455,
+        "flood_exposed_pct": 22.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              26.16
+            ],
+            [
+              90.97999999999999,
+              26.16
+            ],
+            [
+              90.97999999999999,
+              26.26
+            ],
+            [
+              90.88,
+              26.26
+            ],
+            [
+              90.88,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0075",
+        "block": "Rangia",
+        "population_2020": 3140,
+        "pop_density_km2": 25.5,
+        "households": 697,
+        "flood_exposed_pct": 51.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              26.16
+            ],
+            [
+              91.08,
+              26.16
+            ],
+            [
+              91.08,
+              26.26
+            ],
+            [
+              90.98,
+              26.26
+            ],
+            [
+              90.98,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0076",
+        "block": "Bongaon",
+        "population_2020": 2524,
+        "pop_density_km2": 20.5,
+        "households": 560,
+        "flood_exposed_pct": 21.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              26.16
+            ],
+            [
+              91.17999999999999,
+              26.16
+            ],
+            [
+              91.17999999999999,
+              26.26
+            ],
+            [
+              91.08,
+              26.26
+            ],
+            [
+              91.08,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0077",
+        "block": "Boko",
+        "population_2020": 2285,
+        "pop_density_km2": 18.5,
+        "households": 507,
+        "flood_exposed_pct": 36.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              26.16
+            ],
+            [
+              91.28,
+              26.16
+            ],
+            [
+              91.28,
+              26.26
+            ],
+            [
+              91.18,
+              26.26
+            ],
+            [
+              91.18,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0078",
+        "block": "Chhaygaon",
+        "population_2020": 2036,
+        "pop_density_km2": 16.5,
+        "households": 452,
+        "flood_exposed_pct": 41.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              26.16
+            ],
+            [
+              91.38,
+              26.16
+            ],
+            [
+              91.38,
+              26.26
+            ],
+            [
+              91.28,
+              26.26
+            ],
+            [
+              91.28,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0079",
+        "block": "Kamalpur",
+        "population_2020": 2155,
+        "pop_density_km2": 17.5,
+        "households": 478,
+        "flood_exposed_pct": 19.2,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              26.16
+            ],
+            [
+              91.47999999999999,
+              26.16
+            ],
+            [
+              91.47999999999999,
+              26.26
+            ],
+            [
+              91.38,
+              26.26
+            ],
+            [
+              91.38,
+              26.16
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0080",
+        "block": "Rani",
+        "population_2020": 2759,
+        "pop_density_km2": 22.4,
+        "households": 613,
+        "flood_exposed_pct": 63.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              26.26
+            ],
+            [
+              90.58,
+              26.26
+            ],
+            [
+              90.58,
+              26.360000000000003
+            ],
+            [
+              90.48,
+              26.360000000000003
+            ],
+            [
+              90.48,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0081",
+        "block": "Boko",
+        "population_2020": 1828,
+        "pop_density_km2": 14.8,
+        "households": 406,
+        "flood_exposed_pct": 63.1,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              26.26
+            ],
+            [
+              90.67999999999999,
+              26.26
+            ],
+            [
+              90.67999999999999,
+              26.360000000000003
+            ],
+            [
+              90.58,
+              26.360000000000003
+            ],
+            [
+              90.58,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0082",
+        "block": "Chhaygaon",
+        "population_2020": 1149,
+        "pop_density_km2": 9.3,
+        "households": 255,
+        "flood_exposed_pct": 41.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              26.26
+            ],
+            [
+              90.78,
+              26.26
+            ],
+            [
+              90.78,
+              26.360000000000003
+            ],
+            [
+              90.68,
+              26.360000000000003
+            ],
+            [
+              90.68,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0083",
+        "block": "Chamaria",
+        "population_2020": 2590,
+        "pop_density_km2": 21.0,
+        "households": 575,
+        "flood_exposed_pct": 31.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              26.26
+            ],
+            [
+              90.88,
+              26.26
+            ],
+            [
+              90.88,
+              26.360000000000003
+            ],
+            [
+              90.78,
+              26.360000000000003
+            ],
+            [
+              90.78,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0084",
+        "block": "Nagarbera",
+        "population_2020": 1717,
+        "pop_density_km2": 13.9,
+        "households": 381,
+        "flood_exposed_pct": 20.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              26.26
+            ],
+            [
+              90.97999999999999,
+              26.26
+            ],
+            [
+              90.97999999999999,
+              26.360000000000003
+            ],
+            [
+              90.88,
+              26.360000000000003
+            ],
+            [
+              90.88,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0085",
+        "block": "Bongaon",
+        "population_2020": 1211,
+        "pop_density_km2": 9.8,
+        "households": 269,
+        "flood_exposed_pct": 15.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              26.26
+            ],
+            [
+              91.08,
+              26.26
+            ],
+            [
+              91.08,
+              26.360000000000003
+            ],
+            [
+              90.98,
+              26.360000000000003
+            ],
+            [
+              90.98,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0086",
+        "block": "Hajo",
+        "population_2020": 1484,
+        "pop_density_km2": 12.0,
+        "households": 329,
+        "flood_exposed_pct": 56.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              26.26
+            ],
+            [
+              91.17999999999999,
+              26.26
+            ],
+            [
+              91.17999999999999,
+              26.360000000000003
+            ],
+            [
+              91.08,
+              26.360000000000003
+            ],
+            [
+              91.08,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0087",
+        "block": "Rani",
+        "population_2020": 1794,
+        "pop_density_km2": 14.6,
+        "households": 398,
+        "flood_exposed_pct": 53.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              26.26
+            ],
+            [
+              91.28,
+              26.26
+            ],
+            [
+              91.28,
+              26.360000000000003
+            ],
+            [
+              91.18,
+              26.360000000000003
+            ],
+            [
+              91.18,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0088",
+        "block": "Kamalpur",
+        "population_2020": 1850,
+        "pop_density_km2": 15.0,
+        "households": 411,
+        "flood_exposed_pct": 39.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              26.26
+            ],
+            [
+              91.38,
+              26.26
+            ],
+            [
+              91.38,
+              26.360000000000003
+            ],
+            [
+              91.28,
+              26.360000000000003
+            ],
+            [
+              91.28,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0089",
+        "block": "Bezera",
+        "population_2020": 1900,
+        "pop_density_km2": 15.4,
+        "households": 422,
+        "flood_exposed_pct": 28.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              26.26
+            ],
+            [
+              91.47999999999999,
+              26.26
+            ],
+            [
+              91.47999999999999,
+              26.360000000000003
+            ],
+            [
+              91.38,
+              26.360000000000003
+            ],
+            [
+              91.38,
+              26.26
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0090",
+        "block": "Chamaria",
+        "population_2020": 1839,
+        "pop_density_km2": 14.9,
+        "households": 408,
+        "flood_exposed_pct": 55.2,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48,
+              26.36
+            ],
+            [
+              90.58,
+              26.36
+            ],
+            [
+              90.58,
+              26.46
+            ],
+            [
+              90.48,
+              26.46
+            ],
+            [
+              90.48,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0091",
+        "block": "Bezera",
+        "population_2020": 3002,
+        "pop_density_km2": 24.4,
+        "households": 667,
+        "flood_exposed_pct": 59.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.58,
+              26.36
+            ],
+            [
+              90.67999999999999,
+              26.36
+            ],
+            [
+              90.67999999999999,
+              26.46
+            ],
+            [
+              90.58,
+              26.46
+            ],
+            [
+              90.58,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0092",
+        "block": "Goroimari",
+        "population_2020": 2783,
+        "pop_density_km2": 22.6,
+        "households": 618,
+        "flood_exposed_pct": 48.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68,
+              26.36
+            ],
+            [
+              90.78,
+              26.36
+            ],
+            [
+              90.78,
+              26.46
+            ],
+            [
+              90.68,
+              26.46
+            ],
+            [
+              90.68,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0093",
+        "block": "Bezera",
+        "population_2020": 1252,
+        "pop_density_km2": 10.2,
+        "households": 278,
+        "flood_exposed_pct": 24.9,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.78,
+              26.36
+            ],
+            [
+              90.88,
+              26.36
+            ],
+            [
+              90.88,
+              26.46
+            ],
+            [
+              90.78,
+              26.46
+            ],
+            [
+              90.78,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0094",
+        "block": "Palashbari",
+        "population_2020": 2320,
+        "pop_density_km2": 18.8,
+        "households": 515,
+        "flood_exposed_pct": 52.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88,
+              26.36
+            ],
+            [
+              90.97999999999999,
+              26.36
+            ],
+            [
+              90.97999999999999,
+              26.46
+            ],
+            [
+              90.88,
+              26.46
+            ],
+            [
+              90.88,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0095",
+        "block": "Rani",
+        "population_2020": 1088,
+        "pop_density_km2": 8.8,
+        "households": 241,
+        "flood_exposed_pct": 24.8,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98,
+              26.36
+            ],
+            [
+              91.08,
+              26.36
+            ],
+            [
+              91.08,
+              26.46
+            ],
+            [
+              90.98,
+              26.46
+            ],
+            [
+              90.98,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0096",
+        "block": "Bongaon",
+        "population_2020": 2204,
+        "pop_density_km2": 17.9,
+        "households": 489,
+        "flood_exposed_pct": 55.7,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08,
+              26.36
+            ],
+            [
+              91.17999999999999,
+              26.36
+            ],
+            [
+              91.17999999999999,
+              26.46
+            ],
+            [
+              91.08,
+              26.46
+            ],
+            [
+              91.08,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0097",
+        "block": "Bongaon",
+        "population_2020": 2883,
+        "pop_density_km2": 23.4,
+        "households": 640,
+        "flood_exposed_pct": 51.3,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.18,
+              26.36
+            ],
+            [
+              91.28,
+              26.36
+            ],
+            [
+              91.28,
+              26.46
+            ],
+            [
+              91.18,
+              26.46
+            ],
+            [
+              91.18,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0098",
+        "block": "Rani",
+        "population_2020": 2535,
+        "pop_density_km2": 20.6,
+        "households": 563,
+        "flood_exposed_pct": 43.6,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28,
+              26.36
+            ],
+            [
+              91.38,
+              26.36
+            ],
+            [
+              91.38,
+              26.46
+            ],
+            [
+              91.28,
+              26.46
+            ],
+            [
+              91.28,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0099",
+        "block": "Kamalpur",
+        "population_2020": 1912,
+        "pop_density_km2": 15.5,
+        "households": 424,
+        "flood_exposed_pct": 20.0,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.38,
+              26.36
+            ],
+            [
+              91.47999999999999,
+              26.36
+            ],
+            [
+              91.47999999999999,
+              26.46
+            ],
+            [
+              91.38,
+              26.46
+            ],
+            [
+              91.38,
+              26.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "grid_id": "POP_0100",
+        "block": "Bongaon",
+        "population_2020": 2083,
+        "pop_density_km2": 16.9,
+        "households": 462,
+        "flood_exposed_pct": 29.5,
+        "source": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+      }
+    }
+  ]
+}

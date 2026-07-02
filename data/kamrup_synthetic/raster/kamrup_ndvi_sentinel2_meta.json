@@ -1,0 +1,22 @@
+{
+  "file": "kamrup_ndvi_sentinel2.asc",
+  "format": "ESRI ASCII Grid (.asc) \u2014 loadable in QGIS as raster",
+  "equivalent_format": "GeoTIFF (.tif)",
+  "crs": "EPSG:4326 (WGS84)",
+  "description": "NDVI derived from Sentinel-2 synthetic imagery (June 2023, peak monsoon). Range -0.1 (water/urban) to 0.85 (dense forest). Proxy for satellite imagery layer.",
+  "unit": "NDVI index (-1 to 1)",
+  "nrows": 50,
+  "ncols": 50,
+  "xllcorner": 90.48,
+  "yllcorner": 25.46,
+  "cellsize": 0.0204,
+  "nodata_value": -9999,
+  "bbox": {
+    "lat_min": 25.46,
+    "lat_max": 26.49,
+    "lon_min": 90.48,
+    "lon_max": 91.5
+  },
+  "source": "Synthetic \u2014 modelled after SRTM/CartoDEM structure for Kamrup district",
+  "temporal_coverage": "N/A (static layer)"
+}

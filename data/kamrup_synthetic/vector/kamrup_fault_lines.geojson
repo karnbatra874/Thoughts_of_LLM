@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamrup_fault_lines",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "description": "Active and potentially active fault lines in and around Kamrup district based on GSI Bhukosh fault database structure.",
+    "crs": "EPSG:4326",
+    "source": "Synthetic \u2014 modelled on OSM/ASDMA data structure for Kamrup district",
+    "bbox": [
+      90.48,
+      25.46,
+      91.5,
+      26.49
+    ],
+    "feature_count": 5
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.492505,
+            25.715771
+          ],
+          [
+            90.911787,
+            25.916879
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FL_001",
+        "name": "Kopili Fault",
+        "fault_type": "strike-slip",
+        "activity_status": "active",
+        "dip_direction": "NE",
+        "dip_angle_deg": 58.8,
+        "length_km": 51.6,
+        "source": "GSI Bhukosh \u2014 synthetic trace for Kamrup region",
+        "last_rupture": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.495891,
+            25.696197
+          ],
+          [
+            90.815273,
+            25.85395
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FL_002",
+        "name": "Naga Thrust",
+        "fault_type": "thrust",
+        "activity_status": "active",
+        "dip_direction": "NE",
+        "dip_angle_deg": 53.1,
+        "length_km": 39.5,
+        "source": "GSI Bhukosh \u2014 synthetic trace for Kamrup region",
+        "last_rupture": "Holocene"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.774633,
+            25.548176
+          ],
+          [
+            91.547248,
+            25.690743
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FL_003",
+        "name": "Brahmaputra Fault Zone",
+        "fault_type": "normal",
+        "activity_status": "active",
+        "dip_direction": "NW",
+        "dip_angle_deg": 59.9,
+        "length_km": 87.2,
+        "source": "GSI Bhukosh \u2014 synthetic trace for Kamrup region",
+        "last_rupture": "1897 Assam Earthquake related"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.587657,
+            25.571149
+          ],
+          [
+            91.312027,
+            25.794751
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FL_004",
+        "name": "Dauki Fault (northern extension)",
+        "fault_type": "thrust",
+        "activity_status": "active",
+        "dip_direction": "SW",
+        "dip_angle_deg": 29.8,
+        "length_km": 84.1,
+        "source": "GSI Bhukosh \u2014 synthetic trace for Kamrup region",
+        "last_rupture": "1897 Assam Earthquake related"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            90.883564,
+            25.70149
+          ],
+          [
+            91.381699,
+            26.245795
+          ]
+        ]
+      },
+      "properties": {
+        "fault_id": "FL_005",
+        "name": "Dhansiri Valley Fault",
+        "fault_type": "strike-slip",
+        "activity_status": "potentially active",
+        "dip_direction": "SW",
+        "dip_angle_deg": 28.9,
+        "length_km": 81.9,
+        "source": "GSI Bhukosh \u2014 synthetic trace for Kamrup region",
+        "last_rupture": "1897 Assam Earthquake related"
+      }
+    }
+  ]
+}

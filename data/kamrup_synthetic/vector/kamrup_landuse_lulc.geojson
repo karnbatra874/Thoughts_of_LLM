@@ -1,0 +1,2304 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamrup_landuse_lulc",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "description": "Land use / land cover polygons for Kamrup district (2022-23). Classes based on ISRO Bhuvan LULC Level-2 classification scheme.",
+    "crs": "EPSG:4326",
+    "source": "Synthetic \u2014 modelled on OSM/ASDMA data structure for Kamrup district",
+    "bbox": [
+      90.48,
+      25.46,
+      91.5,
+      26.49
+    ],
+    "feature_count": 57
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.0614085672224,
+              26.247934431040346
+            ],
+            [
+              91.11518537773638,
+              26.247934431040346
+            ],
+            [
+              91.11518537773638,
+              26.281873812560104
+            ],
+            [
+              91.0614085672224,
+              26.281873812560104
+            ],
+            [
+              91.0614085672224,
+              26.247934431040346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0001",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 2248.77,
+        "season": "2022-23",
+        "ndvi_mean": 0.558,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.69422437911246,
+              25.50353316447288
+            ],
+            [
+              90.72224683747454,
+              25.50353316447288
+            ],
+            [
+              90.72224683747454,
+              25.518565259595977
+            ],
+            [
+              90.69422437911246,
+              25.518565259595977
+            ],
+            [
+              90.69422437911246,
+              25.50353316447288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0002",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 519.01,
+        "season": "2022-23",
+        "ndvi_mean": 0.251,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.7412951869235,
+              25.555951357939243
+            ],
+            [
+              90.78490098691539,
+              25.555951357939243
+            ],
+            [
+              90.78490098691539,
+              25.581814980740106
+            ],
+            [
+              90.7412951869235,
+              25.581814980740106
+            ],
+            [
+              90.7412951869235,
+              25.555951357939243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0003",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 1389.57,
+        "season": "2022-23",
+        "ndvi_mean": 0.341,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.73095915272617,
+              25.659031679232914
+            ],
+            [
+              90.78810860917324,
+              25.659031679232914
+            ],
+            [
+              90.78810860917324,
+              25.695657023872286
+            ],
+            [
+              90.73095915272617,
+              25.695657023872286
+            ],
+            [
+              90.73095915272617,
+              25.659031679232914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0004",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 2578.93,
+        "season": "2022-23",
+        "ndvi_mean": 0.496,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.16537919007332,
+              25.622581715788193
+            ],
+            [
+              91.18773230229262,
+              25.622581715788193
+            ],
+            [
+              91.18773230229262,
+              25.649001022574986
+            ],
+            [
+              91.16537919007332,
+              25.649001022574986
+            ],
+            [
+              91.16537919007332,
+              25.622581715788193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0005",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 727.62,
+        "season": "2022-23",
+        "ndvi_mean": 0.743,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.00353275914817,
+              26.067999771861388
+            ],
+            [
+              91.04934040044272,
+              26.067999771861388
+            ],
+            [
+              91.04934040044272,
+              26.1120281448286
+            ],
+            [
+              91.00353275914817,
+              26.1120281448286
+            ],
+            [
+              91.00353275914817,
+              26.067999771861388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0006",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 2484.94,
+        "season": "2022-23",
+        "ndvi_mean": 0.604,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.5101742292698,
+              25.6775956683659
+            ],
+            [
+              90.53936961643245,
+              25.6775956683659
+            ],
+            [
+              90.53936961643245,
+              25.699769821652975
+            ],
+            [
+              90.5101742292698,
+              25.699769821652975
+            ],
+            [
+              90.5101742292698,
+              25.6775956683659
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0007",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 797.64,
+        "season": "2022-23",
+        "ndvi_mean": 0.237,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.30378556888431,
+              26.355764228618302
+            ],
+            [
+              91.33294607352023,
+              26.355764228618302
+            ],
+            [
+              91.33294607352023,
+              26.392670897899507
+            ],
+            [
+              91.30378556888431,
+              26.392670897899507
+            ],
+            [
+              91.30378556888431,
+              26.355764228618302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0008",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 1326.01,
+        "season": "2022-23",
+        "ndvi_mean": 0.357,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.91132074143216,
+              26.328820210253518
+            ],
+            [
+              90.93824034892458,
+              26.328820210253518
+            ],
+            [
+              90.93824034892458,
+              26.35019205554589
+            ],
+            [
+              90.91132074143216,
+              26.35019205554589
+            ],
+            [
+              90.91132074143216,
+              26.328820210253518
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0009",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 708.85,
+        "season": "2022-23",
+        "ndvi_mean": 0.465,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.02951083081012,
+              25.70960452809679
+            ],
+            [
+              91.08491286057223,
+              25.70960452809679
+            ],
+            [
+              91.08491286057223,
+              25.736781747292124
+            ],
+            [
+              91.02951083081012,
+              25.736781747292124
+            ],
+            [
+              91.02951083081012,
+              25.70960452809679
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0010",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 1855.14,
+        "season": "2022-23",
+        "ndvi_mean": 0.243,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.95895471605589,
+              26.407660726170356
+            ],
+            [
+              90.9780456396037,
+              26.407660726170356
+            ],
+            [
+              90.9780456396037,
+              26.421451148436496
+            ],
+            [
+              90.95895471605589,
+              26.421451148436496
+            ],
+            [
+              90.95895471605589,
+              26.407660726170356
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0011",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 324.38,
+        "season": "2022-23",
+        "ndvi_mean": 0.171,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.22455460250119,
+              26.056073739617936
+            ],
+            [
+              91.25855180100717,
+              26.056073739617936
+            ],
+            [
+              91.25855180100717,
+              26.07048779245171
+            ],
+            [
+              91.22455460250119,
+              26.07048779245171
+            ],
+            [
+              91.22455460250119,
+              26.056073739617936
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0012",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 603.78,
+        "season": "2022-23",
+        "ndvi_mean": 0.348,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.9773674843932,
+              26.40631531122809
+            ],
+            [
+              91.03606601138581,
+              26.40631531122809
+            ],
+            [
+              91.03606601138581,
+              26.451024939913
+            ],
+            [
+              90.9773674843932,
+              26.451024939913
+            ],
+            [
+              90.9773674843932,
+              26.40631531122809
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0013",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 3233.51,
+        "season": "2022-23",
+        "ndvi_mean": 0.107,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.12080774688498,
+              26.144685728392187
+            ],
+            [
+              91.15997141175338,
+              26.144685728392187
+            ],
+            [
+              91.15997141175338,
+              26.166825085610384
+            ],
+            [
+              91.12080774688498,
+              26.166825085610384
+            ],
+            [
+              91.12080774688498,
+              26.144685728392187
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0014",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 1068.3,
+        "season": "2022-23",
+        "ndvi_mean": 0.517,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.88867933562896,
+              25.565974564916083
+            ],
+            [
+              90.92409690241378,
+              25.565974564916083
+            ],
+            [
+              90.92409690241378,
+              25.614219570161882
+            ],
+            [
+              90.88867933562896,
+              25.614219570161882
+            ],
+            [
+              90.88867933562896,
+              25.565974564916083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0015",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 2105.31,
+        "season": "2022-23",
+        "ndvi_mean": 0.669,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.95055094626728,
+              25.710219598213538
+            ],
+            [
+              90.97359028089114,
+              25.710219598213538
+            ],
+            [
+              90.97359028089114,
+              25.75689945610864
+            ],
+            [
+              90.95055094626728,
+              25.75689945610864
+            ],
+            [
+              90.95055094626728,
+              25.710219598213538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0016",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 1325.09,
+        "season": "2022-23",
+        "ndvi_mean": 0.666,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.08061252517405,
+              25.7435225518762
+            ],
+            [
+              91.12301618468877,
+              25.7435225518762
+            ],
+            [
+              91.12301618468877,
+              25.761330444081086
+            ],
+            [
+              91.08061252517405,
+              25.761330444081086
+            ],
+            [
+              91.08061252517405,
+              25.7435225518762
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0017",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 930.38,
+        "season": "2022-23",
+        "ndvi_mean": 0.596,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.21190888991272,
+              25.972410078613645
+            ],
+            [
+              91.2507748051615,
+              25.972410078613645
+            ],
+            [
+              91.2507748051615,
+              25.984431810666507
+            ],
+            [
+              91.21190888991272,
+              25.984431810666507
+            ],
+            [
+              91.21190888991272,
+              25.972410078613645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0018",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 575.68,
+        "season": "2022-23",
+        "ndvi_mean": 0.311,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.35335269928875,
+              25.47850290526654
+            ],
+            [
+              91.40789518379079,
+              25.47850290526654
+            ],
+            [
+              91.40789518379079,
+              25.522106195382268
+            ],
+            [
+              91.35335269928875,
+              25.522106195382268
+            ],
+            [
+              91.35335269928875,
+              25.47850290526654
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0019",
+        "lulc_class": "Agriculture - Kharif",
+        "lulc_type": "cropland",
+        "area_ha": 2930.22,
+        "season": "2022-23",
+        "ndvi_mean": 0.3,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.3053290232518,
+              25.51502890816948
+            ],
+            [
+              91.36294174829021,
+              25.51502890816948
+            ],
+            [
+              91.36294174829021,
+              25.53028373934806
+            ],
+            [
+              91.3053290232518,
+              25.53028373934806
+            ],
+            [
+              91.3053290232518,
+              25.51502890816948
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0020",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 1082.86,
+        "season": "2022-23",
+        "ndvi_mean": 0.416,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.1949660353418,
+              25.525751892544964
+            ],
+            [
+              91.24442858466062,
+              25.525751892544964
+            ],
+            [
+              91.24442858466062,
+              25.542630768195956
+            ],
+            [
+              91.1949660353418,
+              25.542630768195956
+            ],
+            [
+              91.1949660353418,
+              25.525751892544964
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0021",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 1028.65,
+        "season": "2022-23",
+        "ndvi_mean": 0.409,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.72915323120365,
+              25.982313413820197
+            ],
+            [
+              90.78341271805249,
+              25.982313413820197
+            ],
+            [
+              90.78341271805249,
+              26.010392655547832
+            ],
+            [
+              90.72915323120365,
+              26.010392655547832
+            ],
+            [
+              90.72915323120365,
+              25.982313413820197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0022",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 1877.18,
+        "season": "2022-23",
+        "ndvi_mean": 0.238,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.16613520494458,
+              25.972331284340484
+            ],
+            [
+              91.19018700279712,
+              25.972331284340484
+            ],
+            [
+              91.19018700279712,
+              25.996176503409917
+            ],
+            [
+              91.16613520494458,
+              25.996176503409917
+            ],
+            [
+              91.16613520494458,
+              25.972331284340484
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0023",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 706.63,
+        "season": "2022-23",
+        "ndvi_mean": 0.747,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.89181407887963,
+              26.077384154757482
+            ],
+            [
+              90.93010499172624,
+              26.077384154757482
+            ],
+            [
+              90.93010499172624,
+              26.093982314200478
+            ],
+            [
+              90.89181407887963,
+              26.093982314200478
+            ],
+            [
+              90.89181407887963,
+              26.077384154757482
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0024",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 783.07,
+        "season": "2022-23",
+        "ndvi_mean": 0.246,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.0330101953498,
+              25.781181284040084
+            ],
+            [
+              91.05836535831665,
+              25.781181284040084
+            ],
+            [
+              91.05836535831665,
+              25.801549544649244
+            ],
+            [
+              91.0330101953498,
+              25.801549544649244
+            ],
+            [
+              91.0330101953498,
+              25.781181284040084
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0025",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 636.31,
+        "season": "2022-23",
+        "ndvi_mean": 0.146,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.69520527678249,
+              26.059547809406595
+            ],
+            [
+              90.75094917736776,
+              26.059547809406595
+            ],
+            [
+              90.75094917736776,
+              26.104213954616238
+            ],
+            [
+              90.69520527678249,
+              26.104213954616238
+            ],
+            [
+              90.69520527678249,
+              26.059547809406595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0026",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 3067.76,
+        "season": "2022-23",
+        "ndvi_mean": 0.146,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.10883911159851,
+              25.686104402650546
+            ],
+            [
+              91.13347976793018,
+              25.686104402650546
+            ],
+            [
+              91.13347976793018,
+              25.703132252902098
+            ],
+            [
+              91.10883911159851,
+              25.703132252902098
+            ],
+            [
+              91.10883911159851,
+              25.686104402650546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0027",
+        "lulc_class": "Agriculture - Rabi",
+        "lulc_type": "cropland",
+        "area_ha": 516.96,
+        "season": "2022-23",
+        "ndvi_mean": 0.708,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.9243107647331,
+              26.002490938659022
+            ],
+            [
+              90.97461863882617,
+              26.002490938659022
+            ],
+            [
+              90.97461863882617,
+              26.045175824574155
+            ],
+            [
+              90.9243107647331,
+              26.045175824574155
+            ],
+            [
+              90.9243107647331,
+              26.002490938659022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0028",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 2645.79,
+        "season": "2022-23",
+        "ndvi_mean": 0.224,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.885188111462,
+              25.552084273517384
+            ],
+            [
+              90.9192491494979,
+              25.552084273517384
+            ],
+            [
+              90.9192491494979,
+              25.581831210902777
+            ],
+            [
+              90.885188111462,
+              25.581831210902777
+            ],
+            [
+              90.885188111462,
+              25.552084273517384
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0029",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 1248.38,
+        "season": "2022-23",
+        "ndvi_mean": 0.574,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.40511529868401,
+              26.099696319928636
+            ],
+            [
+              91.42454410288585,
+              26.099696319928636
+            ],
+            [
+              91.42454410288585,
+              26.126995928648522
+            ],
+            [
+              91.40511529868401,
+              26.126995928648522
+            ],
+            [
+              91.40511529868401,
+              26.099696319928636
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0030",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 653.5,
+        "season": "2022-23",
+        "ndvi_mean": 0.321,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.71373695388507,
+              26.278588909535152
+            ],
+            [
+              90.73729635476491,
+              26.278588909535152
+            ],
+            [
+              90.73729635476491,
+              26.307636224352812
+            ],
+            [
+              90.71373695388507,
+              26.307636224352812
+            ],
+            [
+              90.71373695388507,
+              26.278588909535152
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0031",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 843.17,
+        "season": "2022-23",
+        "ndvi_mean": 0.374,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.71481806100918,
+              25.724617887433595
+            ],
+            [
+              90.7713650129766,
+              25.724617887433595
+            ],
+            [
+              90.7713650129766,
+              25.753456855745625
+            ],
+            [
+              90.71481806100918,
+              25.753456855745625
+            ],
+            [
+              90.71481806100918,
+              25.724617887433595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0032",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 2009.25,
+        "season": "2022-23",
+        "ndvi_mean": 0.66,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.52755302975339,
+              25.982809046827356
+            ],
+            [
+              90.58752074083196,
+              25.982809046827356
+            ],
+            [
+              90.58752074083196,
+              26.026578095060394
+            ],
+            [
+              90.52755302975339,
+              26.026578095060394
+            ],
+            [
+              90.52755302975339,
+              25.982809046827356
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0033",
+        "lulc_class": "Dense Forest",
+        "lulc_type": "forest",
+        "area_ha": 3233.93,
+        "season": "2022-23",
+        "ndvi_mean": 0.73,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.27777399034944,
+              26.340048633857723
+            ],
+            [
+              91.30025799032663,
+              26.340048633857723
+            ],
+            [
+              91.30025799032663,
+              26.37050299662485
+            ],
+            [
+              91.27777399034944,
+              26.37050299662485
+            ],
+            [
+              91.27777399034944,
+              26.340048633857723
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0034",
+        "lulc_class": "Open Forest",
+        "lulc_type": "forest",
+        "area_ha": 843.66,
+        "season": "2022-23",
+        "ndvi_mean": 0.239,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.53511727597385,
+              25.84098827792198
+            ],
+            [
+              90.5671710663278,
+              25.84098827792198
+            ],
+            [
+              90.5671710663278,
+              25.89043001398561
+            ],
+            [
+              90.53511727597385,
+              25.89043001398561
+            ],
+            [
+              90.53511727597385,
+              25.84098827792198
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0035",
+        "lulc_class": "Open Forest",
+        "lulc_type": "forest",
+        "area_ha": 1952.63,
+        "season": "2022-23",
+        "ndvi_mean": 0.272,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.9077078652988,
+              26.20486707185114
+            ],
+            [
+              90.94174320216835,
+              26.20486707185114
+            ],
+            [
+              90.94174320216835,
+              26.25324514220381
+            ],
+            [
+              90.9077078652988,
+              26.25324514220381
+            ],
+            [
+              90.9077078652988,
+              26.20486707185114
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0036",
+        "lulc_class": "Open Forest",
+        "lulc_type": "forest",
+        "area_ha": 2028.73,
+        "season": "2022-23",
+        "ndvi_mean": 0.747,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.15530377877855,
+              25.98797990723534
+            ],
+            [
+              91.17726963591588,
+              25.98797990723534
+            ],
+            [
+              91.17726963591588,
+              26.011254804604132
+            ],
+            [
+              91.15530377877855,
+              26.011254804604132
+            ],
+            [
+              91.15530377877855,
+              25.98797990723534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0037",
+        "lulc_class": "Open Forest",
+        "lulc_type": "forest",
+        "area_ha": 629.91,
+        "season": "2022-23",
+        "ndvi_mean": 0.73,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.98966348929181,
+              26.010221276275445
+            ],
+            [
+              91.03832238950888,
+              26.010221276275445
+            ],
+            [
+              91.03832238950888,
+              26.02439355664593
+            ],
+            [
+              90.98966348929181,
+              26.02439355664593
+            ],
+            [
+              90.98966348929181,
+              26.010221276275445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0038",
+        "lulc_class": "Waterbody - River",
+        "lulc_type": "water",
+        "area_ha": 849.67,
+        "season": "2022-23",
+        "ndvi_mean": 0.017,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.28155669852539,
+              25.93770786377354
+            ],
+            [
+              91.30364117128266,
+              25.93770786377354
+            ],
+            [
+              91.30364117128266,
+              25.98621746209797
+            ],
+            [
+              91.28155669852539,
+              25.98621746209797
+            ],
+            [
+              91.28155669852539,
+              25.93770786377354
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0039",
+        "lulc_class": "Waterbody - River",
+        "lulc_type": "water",
+        "area_ha": 1319.96,
+        "season": "2022-23",
+        "ndvi_mean": -0.084,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.03933300006302,
+              25.636533712931687
+            ],
+            [
+              91.08471756497521,
+              25.636533712931687
+            ],
+            [
+              91.08471756497521,
+              25.65747146094172
+            ],
+            [
+              91.03933300006302,
+              25.65747146094172
+            ],
+            [
+              91.03933300006302,
+              25.636533712931687
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0040",
+        "lulc_class": "Waterbody - River",
+        "lulc_type": "water",
+        "area_ha": 1170.8,
+        "season": "2022-23",
+        "ndvi_mean": -0.076,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.71144242692131,
+              26.305772948422966
+            ],
+            [
+              90.75319578883031,
+              26.305772948422966
+            ],
+            [
+              90.75319578883031,
+              26.341309445815586
+            ],
+            [
+              90.71144242692131,
+              26.341309445815586
+            ],
+            [
+              90.71144242692131,
+              26.305772948422966
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0041",
+        "lulc_class": "Waterbody - River",
+        "lulc_type": "water",
+        "area_ha": 1828.15,
+        "season": "2022-23",
+        "ndvi_mean": -0.016,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.97141575260004,
+              26.014488674826666
+            ],
+            [
+              91.02847753419817,
+              26.014488674826666
+            ],
+            [
+              91.02847753419817,
+              26.03425052440476
+            ],
+            [
+              90.97141575260004,
+              26.03425052440476
+            ],
+            [
+              90.97141575260004,
+              26.014488674826666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0042",
+        "lulc_class": "Waterbody - Wetland",
+        "lulc_type": "water",
+        "area_ha": 1389.37,
+        "season": "2022-23",
+        "ndvi_mean": 0.043,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.85203869598378,
+              25.686751654985056
+            ],
+            [
+              90.89726475601698,
+              25.686751654985056
+            ],
+            [
+              90.89726475601698,
+              25.710151544017407
+            ],
+            [
+              90.85203869598378,
+              25.710151544017407
+            ],
+            [
+              90.85203869598378,
+              25.686751654985056
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0043",
+        "lulc_class": "Waterbody - Wetland",
+        "lulc_type": "water",
+        "area_ha": 1303.91,
+        "season": "2022-23",
+        "ndvi_mean": -0.037,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.54819052762358,
+              26.17427126779368
+            ],
+            [
+              90.5838133761414,
+              26.17427126779368
+            ],
+            [
+              90.5838133761414,
+              26.22421253654615
+            ],
+            [
+              90.54819052762358,
+              26.22421253654615
+            ],
+            [
+              90.54819052762358,
+              26.17427126779368
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0044",
+        "lulc_class": "Built-up Urban",
+        "lulc_type": "settlement",
+        "area_ha": 2191.97,
+        "season": "2022-23",
+        "ndvi_mean": 0.747,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.68036505353102,
+              25.529597685044653
+            ],
+            [
+              90.70729907219479,
+              25.529597685044653
+            ],
+            [
+              90.70729907219479,
+              25.577061541408415
+            ],
+            [
+              90.68036505353102,
+              25.577061541408415
+            ],
+            [
+              90.68036505353102,
+              25.529597685044653
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0045",
+        "lulc_class": "Built-up Urban",
+        "lulc_type": "settlement",
+        "area_ha": 1575.11,
+        "season": "2022-23",
+        "ndvi_mean": 0.673,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.82735546341455,
+              26.295306730360316
+            ],
+            [
+              90.84945407087062,
+              26.295306730360316
+            ],
+            [
+              90.84945407087062,
+              26.33898903863663
+            ],
+            [
+              90.82735546341455,
+              26.33898903863663
+            ],
+            [
+              90.82735546341455,
+              26.295306730360316
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0046",
+        "lulc_class": "Built-up Urban",
+        "lulc_type": "settlement",
+        "area_ha": 1189.37,
+        "season": "2022-23",
+        "ndvi_mean": 0.557,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.40799907981362,
+              26.041093877439653
+            ],
+            [
+              91.45242801411061,
+              26.041093877439653
+            ],
+            [
+              91.45242801411061,
+              26.053391155511434
+            ],
+            [
+              91.40799907981362,
+              26.053391155511434
+            ],
+            [
+              91.40799907981362,
+              26.041093877439653
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0047",
+        "lulc_class": "Built-up Rural",
+        "lulc_type": "settlement",
+        "area_ha": 673.16,
+        "season": "2022-23",
+        "ndvi_mean": 0.631,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.10358539206811,
+              25.74440981458998
+            ],
+            [
+              91.16083724224484,
+              25.74440981458998
+            ],
+            [
+              91.16083724224484,
+              25.761512876936926
+            ],
+            [
+              91.10358539206811,
+              25.761512876936926
+            ],
+            [
+              91.10358539206811,
+              25.74440981458998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0048",
+        "lulc_class": "Built-up Rural",
+        "lulc_type": "settlement",
+        "area_ha": 1206.45,
+        "season": "2022-23",
+        "ndvi_mean": 0.175,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.00003022243173,
+              25.56168417882395
+            ],
+            [
+              91.0272858919859,
+              25.56168417882395
+            ],
+            [
+              91.0272858919859,
+              25.596667712251097
+            ],
+            [
+              91.00003022243173,
+              25.596667712251097
+            ],
+            [
+              91.00003022243173,
+              25.56168417882395
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0049",
+        "lulc_class": "Built-up Rural",
+        "lulc_type": "settlement",
+        "area_ha": 1174.81,
+        "season": "2022-23",
+        "ndvi_mean": 0.566,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.07618368135198,
+              25.65341744671108
+            ],
+            [
+              91.10306295692534,
+              25.65341744671108
+            ],
+            [
+              91.10306295692534,
+              25.683981657092758
+            ],
+            [
+              91.07618368135198,
+              25.683981657092758
+            ],
+            [
+              91.07618368135198,
+              25.65341744671108
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0050",
+        "lulc_class": "Built-up Rural",
+        "lulc_type": "settlement",
+        "area_ha": 1012.22,
+        "season": "2022-23",
+        "ndvi_mean": 0.688,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.56676055964998,
+              26.26379852763011
+            ],
+            [
+              90.60082146941535,
+              26.26379852763011
+            ],
+            [
+              90.60082146941535,
+              26.28631237614106
+            ],
+            [
+              90.56676055964998,
+              26.28631237614106
+            ],
+            [
+              90.56676055964998,
+              26.26379852763011
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0051",
+        "lulc_class": "Built-up Rural",
+        "lulc_type": "settlement",
+        "area_ha": 944.83,
+        "season": "2022-23",
+        "ndvi_mean": 0.102,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.0788865746633,
+              26.192563261868646
+            ],
+            [
+              91.10567456147285,
+              26.192563261868646
+            ],
+            [
+              91.10567456147285,
+              26.232730036385867
+            ],
+            [
+              91.0788865746633,
+              26.232730036385867
+            ],
+            [
+              91.0788865746633,
+              26.192563261868646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0052",
+        "lulc_class": "Fallow Land",
+        "lulc_type": "bare",
+        "area_ha": 1325.72,
+        "season": "2022-23",
+        "ndvi_mean": 0.459,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.48908951763184,
+              25.866302573031646
+            ],
+            [
+              90.50747549133516,
+              25.866302573031646
+            ],
+            [
+              90.50747549133516,
+              25.91186061597705
+            ],
+            [
+              90.48908951763184,
+              25.91186061597705
+            ],
+            [
+              90.48908951763184,
+              25.866302573031646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0053",
+        "lulc_class": "Fallow Land",
+        "lulc_type": "bare",
+        "area_ha": 1032.04,
+        "season": "2022-23",
+        "ndvi_mean": 0.688,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.26451931869286,
+              25.978310774745246
+            ],
+            [
+              91.3057322491849,
+              25.978310774745246
+            ],
+            [
+              91.3057322491849,
+              25.99593833859681
+            ],
+            [
+              91.26451931869286,
+              25.99593833859681
+            ],
+            [
+              91.26451931869286,
+              25.978310774745246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0054",
+        "lulc_class": "Fallow Land",
+        "lulc_type": "bare",
+        "area_ha": 895.1,
+        "season": "2022-23",
+        "ndvi_mean": 0.183,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.32504259941804,
+              25.752845432433627
+            ],
+            [
+              91.375868103138,
+              25.752845432433627
+            ],
+            [
+              91.375868103138,
+              25.79755213054966
+            ],
+            [
+              91.32504259941804,
+              25.79755213054966
+            ],
+            [
+              91.32504259941804,
+              25.752845432433627
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0055",
+        "lulc_class": "Grassland / Char land",
+        "lulc_type": "grassland",
+        "area_ha": 2799.63,
+        "season": "2022-23",
+        "ndvi_mean": 0.684,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.71455795486955,
+              25.65957271142277
+            ],
+            [
+              90.73418366784477,
+              25.65957271142277
+            ],
+            [
+              90.73418366784477,
+              25.701217128613884
+            ],
+            [
+              90.71455795486955,
+              25.701217128613884
+            ],
+            [
+              90.71455795486955,
+              25.65957271142277
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0056",
+        "lulc_class": "Grassland / Char land",
+        "lulc_type": "grassland",
+        "area_ha": 1007.0,
+        "season": "2022-23",
+        "ndvi_mean": 0.675,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.06342181954167,
+              25.846058520340513
+            ],
+            [
+              91.08537671976663,
+              25.846058520340513
+            ],
+            [
+              91.08537671976663,
+              25.893393998936872
+            ],
+            [
+              91.06342181954167,
+              25.893393998936872
+            ],
+            [
+              91.06342181954167,
+              25.846058520340513
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "lulc_id": "LULC_0057",
+        "lulc_class": "Grassland / Char land",
+        "lulc_type": "grassland",
+        "area_ha": 1280.45,
+        "season": "2022-23",
+        "ndvi_mean": 0.662,
+        "source": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup",
+        "flood_vulnerable": true
+      }
+    }
+  ]
+}

@@ -7,3 +7,10 @@ openai
 python-dotenv
 folium
 streamlit
+streamlit-folium
+langchain-openai
+langchain-anthropic
+langchain-groq
+osmnx
+requests
+langchain-google-genai

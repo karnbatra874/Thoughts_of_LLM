@@ -1,0 +1,15 @@
+year,n_flood_events,n_severe_or_above,total_population_affected,total_houses_damaged,total_crop_loss_ha,total_crop_loss_lakh_inr,total_sdrf_lakh_inr,total_fatalities,max_gauge_reading_m,annual_rainfall_mm,monsoon_onset_date,monsoon_withdrawal_date,enso_phase,flood_risk_index,source
+2010,4,0,10497,949,607.2,173.83,102.3,0,4.89,1616.1,2010-06-04,2010-10-12,El Niño,0.889,ASDMA Annual Flood Report + IMD — synthetic compilation
+2011,2,0,13809,1173,606.0,256.44,91.37,0,5.35,1891.6,2011-06-06,2011-10-18,Neutral,0.336,ASDMA Annual Flood Report + IMD — synthetic compilation
+2012,2,2,16818,1009,1927.8000000000002,730.88,231.08,0,5.88,1673.5,2012-06-14,2012-10-15,El Niño,0.698,ASDMA Annual Flood Report + IMD — synthetic compilation
+2013,4,1,53374,2973,3430.6,936.82,457.58,0,6.36,2216.5,2013-06-11,2013-10-20,El Niño,0.33,ASDMA Annual Flood Report + IMD — synthetic compilation
+2014,4,2,54487,4798,6676.5,2061.01,754.57,1,6.46,1479.7,2014-06-13,2014-10-19,La Niña,0.341,ASDMA Annual Flood Report + IMD — synthetic compilation
+2015,2,0,6998,620,593.0,192.76,73.17,0,5.09,2217.0,2015-06-13,2015-10-18,La Niña,0.652,ASDMA Annual Flood Report + IMD — synthetic compilation
+2016,3,0,7206,648,492.8,145.17,52.68,0,4.97,1800.6,2016-06-13,2016-10-05,Neutral,0.302,ASDMA Annual Flood Report + IMD — synthetic compilation
+2017,4,1,52068,4633,3789.2,1128.12,417.35,0,6.28,1629.0,2017-06-14,2017-10-05,La Niña,0.624,ASDMA Annual Flood Report + IMD — synthetic compilation
+2018,3,2,47536,3169,4148.3,1217.69,472.01,1,6.87,1776.1,2018-06-14,2018-10-01,La Niña,0.309,ASDMA Annual Flood Report + IMD — synthetic compilation
+2019,2,1,16282,1520,1301.8,307.48,90.07,0,5.17,1667.1,2019-06-13,2019-10-08,Neutral,0.494,ASDMA Annual Flood Report + IMD — synthetic compilation
+2020,4,2,39074,3434,2684.3,785.13,419.46,0,6.4,1777.1,2020-06-12,2020-10-14,Neutral,0.368,ASDMA Annual Flood Report + IMD — synthetic compilation
+2021,4,1,54306,6071,2378.4,815.91,377.63,0,6.27,1802.5,2021-06-02,2021-10-16,Neutral,0.767,ASDMA Annual Flood Report + IMD — synthetic compilation
+2022,3,0,7837,772,455.9,168.44,52.78,0,5.12,1663.8,2022-06-09,2022-10-08,Neutral,0.326,ASDMA Annual Flood Report + IMD — synthetic compilation
+2023,2,1,27186,2530,1788.8000000000002,517.35,197.31,0,5.39,1742.8,2023-06-13,2023-10-17,Neutral,0.575,ASDMA Annual Flood Report + IMD — synthetic compilation

@@ -1,0 +1,22 @@
+{
+  "file": "kamrup_temperature_mean_c.asc",
+  "format": "ESRI ASCII Grid (.asc) \u2014 loadable in QGIS as raster",
+  "equivalent_format": "GeoTIFF (.tif)",
+  "crs": "EPSG:4326 (WGS84)",
+  "description": "Mean annual temperature for Kamrup district (~22-26\u00b0C). Slight cooling towards northern hills.",
+  "unit": "degrees Celsius (\u00b0C)",
+  "nrows": 50,
+  "ncols": 50,
+  "xllcorner": 90.48,
+  "yllcorner": 25.46,
+  "cellsize": 0.0204,
+  "nodata_value": -9999,
+  "bbox": {
+    "lat_min": 25.46,
+    "lat_max": 26.49,
+    "lon_min": 90.48,
+    "lon_max": 91.5
+  },
+  "source": "Synthetic \u2014 modelled after SRTM/CartoDEM structure for Kamrup district",
+  "temporal_coverage": "N/A (static layer)"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "kamrup_elevation_class.asc",
+  "format": "ESRI ASCII Grid (.asc) \u2014 loadable in QGIS as raster",
+  "equivalent_format": "GeoTIFF (.tif)",
+  "crs": "EPSG:4326 (WGS84)",
+  "description": "Classified elevation zones: 1=Low floodplain(<30m), 2=Mid(30-60m), 3=Upland(60-100m), 4=Lower hills(100-200m), 5=Hills(>200m)",
+  "unit": "class (1-5)",
+  "nrows": 50,
+  "ncols": 50,
+  "xllcorner": 90.48,
+  "yllcorner": 25.46,
+  "cellsize": 0.0204,
+  "nodata_value": -9999,
+  "bbox": {
+    "lat_min": 25.46,
+    "lat_max": 26.49,
+    "lon_min": 90.48,
+    "lon_max": 91.5
+  },
+  "source": "Synthetic \u2014 modelled after SRTM/CartoDEM structure for Kamrup district",
+  "temporal_coverage": "N/A (static layer)"
+}

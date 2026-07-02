@@ -1,0 +1,1068 @@
+{
+  "project": "Agentic GIS Orchestrator \u2014 Kamrup Flood Risk Dataset",
+  "district": "Kamrup, Assam, India",
+  "scan_source": "C:\\Users\\karan\\Downloads\\new_projects\\agentic_gis_orchestrator\\data\\kamrup_synthetic",
+  "total_layers": 9,
+  "layers": [
+    {
+      "file_name": "Assam_Districts_Shapefiles.shp",
+      "file_path": "data\\kamrup_synthetic\\vector\\Assam_Districts_Shapefiles.shp",
+      "format": "Shapefile",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 33,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounding_box": {
+        "minx": 89.698602,
+        "miny": 24.136238,
+        "maxx": 96.017781,
+        "maxy": 27.971569
+      },
+      "attribute_columns": [
+        "Dist_Name",
+        "State_Name"
+      ],
+      "column_details": {
+        "Dist_Name": {
+          "dtype": "str",
+          "sample": "Tinsukia"
+        },
+        "State_Name": {
+          "dtype": "str",
+          "sample": "ASSAM"
+        }
+      }
+    },
+    {
+      "file_name": "kamrup_fault_lines.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\kamrup_fault_lines.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 5,
+      "geometry_types": [
+        "LineString"
+      ],
+      "bounding_box": {
+        "minx": 90.492505,
+        "miny": 25.548176,
+        "maxx": 91.547248,
+        "maxy": 26.245795
+      },
+      "attribute_columns": [
+        "fault_id",
+        "name",
+        "fault_type",
+        "activity_status",
+        "dip_direction",
+        "dip_angle_deg",
+        "length_km",
+        "source",
+        "last_rupture"
+      ],
+      "column_details": {
+        "fault_id": {
+          "dtype": "str",
+          "sample": "FL_001"
+        },
+        "name": {
+          "dtype": "str",
+          "sample": "Kopili Fault"
+        },
+        "fault_type": {
+          "dtype": "str",
+          "sample": "strike-slip"
+        },
+        "activity_status": {
+          "dtype": "str",
+          "sample": "active"
+        },
+        "dip_direction": {
+          "dtype": "str",
+          "sample": "NE"
+        },
+        "dip_angle_deg": {
+          "dtype": "float64",
+          "sample": "58.8"
+        },
+        "length_km": {
+          "dtype": "float64",
+          "sample": "51.6"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "GSI Bhukosh \u2014 synthetic trace for Kamrup region"
+        },
+        "last_rupture": {
+          "dtype": "str",
+          "sample": "Unknown"
+        }
+      }
+    },
+    {
+      "file_name": "kamrup_landuse_lulc.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\kamrup_landuse_lulc.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 57,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounding_box": {
+        "minx": 90.48909,
+        "miny": 25.478503,
+        "maxx": 91.452428,
+        "maxy": 26.451025
+      },
+      "attribute_columns": [
+        "lulc_id",
+        "lulc_class",
+        "lulc_type",
+        "area_ha",
+        "season",
+        "ndvi_mean",
+        "source",
+        "flood_vulnerable"
+      ],
+      "column_details": {
+        "lulc_id": {
+          "dtype": "str",
+          "sample": "LULC_0001"
+        },
+        "lulc_class": {
+          "dtype": "str",
+          "sample": "Agriculture - Kharif"
+        },
+        "lulc_type": {
+          "dtype": "str",
+          "sample": "cropland"
+        },
+        "area_ha": {
+          "dtype": "float64",
+          "sample": "2248.77"
+        },
+        "season": {
+          "dtype": "str",
+          "sample": "2022-23"
+        },
+        "ndvi_mean": {
+          "dtype": "float64",
+          "sample": "0.558"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "Bhuvan NRSC LULC \u2014 synthetic polygon for Kamrup"
+        },
+        "flood_vulnerable": {
+          "dtype": "bool",
+          "sample": "True"
+        }
+      }
+    },
+    {
+      "file_name": "kamrup_population_grid.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\kamrup_population_grid.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 100,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounding_box": {
+        "minx": 90.48,
+        "miny": 25.46,
+        "maxx": 91.48,
+        "maxy": 26.46
+      },
+      "attribute_columns": [
+        "grid_id",
+        "block",
+        "population_2020",
+        "pop_density_km2",
+        "households",
+        "flood_exposed_pct",
+        "source"
+      ],
+      "column_details": {
+        "grid_id": {
+          "dtype": "str",
+          "sample": "POP_0001"
+        },
+        "block": {
+          "dtype": "str",
+          "sample": "Chamaria"
+        },
+        "population_2020": {
+          "dtype": "int32",
+          "sample": "2902"
+        },
+        "pop_density_km2": {
+          "dtype": "float64",
+          "sample": "23.6"
+        },
+        "households": {
+          "dtype": "int32",
+          "sample": "644"
+        },
+        "flood_exposed_pct": {
+          "dtype": "float64",
+          "sample": "11.4"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "WorldPop 2020 \u2014 synthetic grid for Kamrup"
+        }
+      }
+    },
+    {
+      "file_name": "landuse_kamrup.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\landuse_kamrup.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 137,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "bounding_box": {
+        "minx": 90.464929,
+        "miny": 25.49701,
+        "maxx": 91.460265,
+        "maxy": 26.514929
+      },
+      "attribute_columns": [
+        "id",
+        "@id",
+        "alt_name",
+        "barrier",
+        "boundary",
+        "industrial",
+        "landuse",
+        "name",
+        "place",
+        "population",
+        "produce",
+        "railway",
+        "religion",
+        "resource",
+        "source",
+        "source:barrier",
+        "trees",
+        "wikidata"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "str",
+          "sample": "way/22826523"
+        },
+        "@id": {
+          "dtype": "str",
+          "sample": "way/22826523"
+        },
+        "alt_name": {
+          "dtype": "str",
+          "sample": "Kakoijana Reserve Forest;Kakaijan Reserved Forest;Kakaijana"
+        },
+        "barrier": {
+          "dtype": "str",
+          "sample": "wall"
+        },
+        "boundary": {
+          "dtype": "str",
+          "sample": "protected_area"
+        },
+        "industrial": {
+          "dtype": "str",
+          "sample": "brickyard"
+        },
+        "landuse": {
+          "dtype": "str",
+          "sample": "residential"
+        },
+        "name": {
+          "dtype": "str",
+          "sample": "Bhairab Reserved Forest"
+        },
+        "place": {
+          "dtype": "str",
+          "sample": "town"
+        },
+        "population": {
+          "dtype": "str",
+          "sample": "50000"
+        },
+        "produce": {
+          "dtype": "str",
+          "sample": "tea"
+        },
+        "railway": {
+          "dtype": "str",
+          "sample": "workshop"
+        },
+        "religion": {
+          "dtype": "str",
+          "sample": "hindu"
+        },
+        "resource": {
+          "dtype": "str",
+          "sample": "clay"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "landsat"
+        },
+        "source:barrier": {
+          "dtype": "str",
+          "sample": "Esri;bing"
+        },
+        "trees": {
+          "dtype": "str",
+          "sample": "tea_plants"
+        },
+        "wikidata": {
+          "dtype": "str",
+          "sample": "Q24950096"
+        }
+      }
+    },
+    {
+      "file_name": "rivers_kamrup.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\rivers_kamrup.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 251,
+      "geometry_types": [
+        "LineString"
+      ],
+      "bounding_box": {
+        "minx": 90.322277,
+        "miny": 25.116835,
+        "maxx": 91.748002,
+        "maxy": 26.727233
+      },
+      "attribute_columns": [
+        "id",
+        "@id",
+        "alt_name",
+        "boat",
+        "bridge",
+        "embankment",
+        "int_name",
+        "intermittent",
+        "layer",
+        "name",
+        "name:as",
+        "name:bn",
+        "name:de",
+        "name:en",
+        "name:hi",
+        "name:kn",
+        "name:ta",
+        "name:te",
+        "name:uk",
+        "name:zh",
+        "note",
+        "seasonal",
+        "short_name",
+        "source",
+        "source:bridge",
+        "source:name",
+        "source:tunnel",
+        "tidal",
+        "tunnel",
+        "waterway",
+        "width"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "str",
+          "sample": "way/44639314"
+        },
+        "@id": {
+          "dtype": "str",
+          "sample": "way/44639314"
+        },
+        "alt_name": {
+          "dtype": "str",
+          "sample": "Pahum\u0101ra Nadi"
+        },
+        "boat": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "bridge": {
+          "dtype": "str",
+          "sample": "aqueduct"
+        },
+        "embankment": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "int_name": {
+          "dtype": "str",
+          "sample": "Dihang (Brahmaputra)"
+        },
+        "intermittent": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "layer": {
+          "dtype": "str",
+          "sample": "-1"
+        },
+        "name": {
+          "dtype": "str",
+          "sample": "Aai"
+        },
+        "name:as": {
+          "dtype": "str",
+          "sample": "\u09ac\u09cd\u09f0\u09b9\u09cd\u09ae\u09aa\u09c1\u09a4\u09cd\u09f0"
+        },
+        "name:bn": {
+          "dtype": "str",
+          "sample": "\u09ac\u09cd\u09b0\u09b9\u09cd\u09ae\u09aa\u09c1\u09a4\u09cd\u09b0"
+        },
+        "name:de": {
+          "dtype": "str",
+          "sample": "Brahmaputra"
+        },
+        "name:en": {
+          "dtype": "str",
+          "sample": "Manas River"
+        },
+        "name:hi": {
+          "dtype": "str",
+          "sample": "\u092c\u094d\u0930\u0939\u094d\u092e\u092a\u0941\u0924\u094d\u0930"
+        },
+        "name:kn": {
+          "dtype": "str",
+          "sample": "\u0cac\u0ccd\u0cb0\u0cb9\u0ccd\u0cae\u0caa\u0cc1\u0ca4\u0ccd\u0cb0"
+        },
+        "name:ta": {
+          "dtype": "str",
+          "sample": "\u0baa\u0bbf\u0bb0\u0bae\u0bcd\u0bae\u0baa\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf\u0bb0\u0bbe"
+        },
+        "name:te": {
+          "dtype": "str",
+          "sample": "\u0c2c\u0c4d\u0c30\u0c39\u0c4d\u0c2e\u0c2a\u0c41\u0c24\u0c4d\u0c30\u0c3e"
+        },
+        "name:uk": {
+          "dtype": "str",
+          "sample": "\u0411\u0440\u0430\u0445\u043c\u0430\u043f\u0443\u0442\u0440\u0430"
+        },
+        "name:zh": {
+          "dtype": "str",
+          "sample": "\u96c5\u9c81\u85cf\u5e03\u6c5f"
+        },
+        "note": {
+          "dtype": "str",
+          "sample": "part of river is obscured by trees"
+        },
+        "seasonal": {
+          "dtype": "str",
+          "sample": "wet_season"
+        },
+        "short_name": {
+          "dtype": "str",
+          "sample": "Manas"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "Bing"
+        },
+        "source:bridge": {
+          "dtype": "str",
+          "sample": "Esri;bing"
+        },
+        "source:name": {
+          "dtype": "str",
+          "sample": "SOI"
+        },
+        "source:tunnel": {
+          "dtype": "str",
+          "sample": "Esri;bing"
+        },
+        "tidal": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "tunnel": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "waterway": {
+          "dtype": "str",
+          "sample": "river"
+        },
+        "width": {
+          "dtype": "str",
+          "sample": "100"
+        }
+      }
+    },
+    {
+      "file_name": "roads_kamrup.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\roads_kamrup.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 8194,
+      "geometry_types": [
+        "LineString",
+        "Polygon"
+      ],
+      "bounding_box": {
+        "minx": 90.399484,
+        "miny": 25.39241,
+        "maxx": 91.539341,
+        "maxy": 26.565439
+      },
+      "attribute_columns": [
+        "id",
+        "@id",
+        "abandoned:highway",
+        "access",
+        "area",
+        "bicycle",
+        "bridge",
+        "check_date",
+        "construction",
+        "covered",
+        "cutting",
+        "description",
+        "direction",
+        "embankment",
+        "fixme",
+        "foot",
+        "ford",
+        "goods",
+        "hgv",
+        "highway",
+        "horse",
+        "incline",
+        "junction",
+        "lanes",
+        "layer",
+        "level",
+        "man_made",
+        "maxheight",
+        "motor_vehicle",
+        "motorcar",
+        "motorroad",
+        "name",
+        "note",
+        "old:ref",
+        "oneway",
+        "opening_date",
+        "railway",
+        "ref",
+        "ref:old",
+        "seasonal",
+        "service",
+        "source",
+        "source:bridge",
+        "source:lanes",
+        "source:ref",
+        "source:surface",
+        "source:tunnel",
+        "surface",
+        "tunnel"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "str",
+          "sample": "way/618334389"
+        },
+        "@id": {
+          "dtype": "str",
+          "sample": "way/618334389"
+        },
+        "abandoned:highway": {
+          "dtype": "str",
+          "sample": "tertiary"
+        },
+        "access": {
+          "dtype": "str",
+          "sample": "private"
+        },
+        "area": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "bicycle": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "bridge": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "check_date": {
+          "dtype": "datetime64[ms]",
+          "sample": "2024-07-31 00:00:00"
+        },
+        "construction": {
+          "dtype": "str",
+          "sample": "tertiary"
+        },
+        "covered": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "cutting": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "description": {
+          "dtype": "str",
+          "sample": "ROAD"
+        },
+        "direction": {
+          "dtype": "str",
+          "sample": "clockwise"
+        },
+        "embankment": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "fixme": {
+          "dtype": "str",
+          "sample": "add maxheight"
+        },
+        "foot": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "ford": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "goods": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "hgv": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "highway": {
+          "dtype": "str",
+          "sample": "service"
+        },
+        "horse": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "incline": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "junction": {
+          "dtype": "str",
+          "sample": "roundabout"
+        },
+        "lanes": {
+          "dtype": "str",
+          "sample": "2"
+        },
+        "layer": {
+          "dtype": "str",
+          "sample": "2"
+        },
+        "level": {
+          "dtype": "str",
+          "sample": "0;1"
+        },
+        "man_made": {
+          "dtype": "str",
+          "sample": "dyke"
+        },
+        "maxheight": {
+          "dtype": "str",
+          "sample": "4.67"
+        },
+        "motor_vehicle": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "motorcar": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "motorroad": {
+          "dtype": "str",
+          "sample": "no"
+        },
+        "name": {
+          "dtype": "str",
+          "sample": "Naranarayan Setu"
+        },
+        "note": {
+          "dtype": "str",
+          "sample": "MDR - so its secondary (see https://wiki.openstreetmap.org/wiki/India/Tags/Highway)"
+        },
+        "old:ref": {
+          "dtype": "str",
+          "sample": "SH46"
+        },
+        "oneway": {
+          "dtype": "str",
+          "sample": "yes"
+        },
+        "opening_date": {
+          "dtype": "datetime64[ms]",
+          "sample": "2024-09-16 00:00:00"
+        },
+        "railway": {
+          "dtype": "str",
+          "sample": "loading_ramp"
+        },
+        "ref": {
+          "dtype": "str",
+          "sample": "NH106"
+        },
+        "ref:old": {
+          "dtype": "str",
+          "sample": "NH 44E"
+        },
+        "seasonal": {
+          "dtype": "str",
+          "sample": "dry_season"
+        },
+        "service": {
+          "dtype": "str",
+          "sample": "driveway"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "Esri"
+        },
+        "source:bridge": {
+          "dtype": "str",
+          "sample": "Esri world imagery (retreived 07/2024)"
+        },
+        "source:lanes": {
+          "dtype": "str",
+          "sample": "Esri"
+        },
+        "source:ref": {
+          "dtype": "str",
+          "sample": "https://www.apwd.in/CITIZEN/ReportController?mainkey=roadList&rrghid=CHIRANG"
+        },
+        "source:surface": {
+          "dtype": "str",
+          "sample": "Esri;bing"
+        },
+        "source:tunnel": {
+          "dtype": "str",
+          "sample": "Esri;bing"
+        },
+        "surface": {
+          "dtype": "str",
+          "sample": "asphalt"
+        },
+        "tunnel": {
+          "dtype": "str",
+          "sample": "yes"
+        }
+      }
+    },
+    {
+      "file_name": "villages_kamrup.geojson",
+      "file_path": "data\\kamrup_synthetic\\vector\\villages_kamrup.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 69,
+      "geometry_types": [
+        "Point"
+      ],
+      "bounding_box": {
+        "minx": 90.498022,
+        "miny": 25.506085,
+        "maxx": 91.4829,
+        "maxy": 26.489914
+      },
+      "attribute_columns": [
+        "id",
+        "@id",
+        "AND_a_nosr_p",
+        "alt_name",
+        "capital",
+        "elevation",
+        "name",
+        "name:bn",
+        "name:en",
+        "name:ml",
+        "name:zh-Hans-CN",
+        "name:zh-Latn-pinyin",
+        "place",
+        "population",
+        "population:date",
+        "postal_code",
+        "source",
+        "source:name",
+        "source:population",
+        "wikidata",
+        "wikipedia"
+      ],
+      "column_details": {
+        "id": {
+          "dtype": "str",
+          "sample": "node/245736092"
+        },
+        "@id": {
+          "dtype": "str",
+          "sample": "node/245736092"
+        },
+        "AND_a_nosr_p": {
+          "dtype": "str",
+          "sample": "10014568"
+        },
+        "alt_name": {
+          "dtype": "str",
+          "sample": "Baghbar"
+        },
+        "capital": {
+          "dtype": "str",
+          "sample": "5"
+        },
+        "elevation": {
+          "dtype": "str",
+          "sample": "1840"
+        },
+        "name": {
+          "dtype": "str",
+          "sample": "Samanda"
+        },
+        "name:bn": {
+          "dtype": "str",
+          "sample": "\u09a8\u09b2\u09ac\u09be\u09dc\u09c0"
+        },
+        "name:en": {
+          "dtype": "str",
+          "sample": "Manikpur"
+        },
+        "name:ml": {
+          "dtype": "str",
+          "sample": "\u0d28\u0d7d\u0d2c\u0d3e\u0d30\u0d3f"
+        },
+        "name:zh-Hans-CN": {
+          "dtype": "str",
+          "sample": "\u7126\u5409\u79d1\u5df4"
+        },
+        "name:zh-Latn-pinyin": {
+          "dtype": "str",
+          "sample": "ne er ba li"
+        },
+        "place": {
+          "dtype": "str",
+          "sample": "village"
+        },
+        "population": {
+          "dtype": "str",
+          "sample": "5000"
+        },
+        "population:date": {
+          "dtype": "str",
+          "sample": "2011"
+        },
+        "postal_code": {
+          "dtype": "str",
+          "sample": "783122"
+        },
+        "source": {
+          "dtype": "str",
+          "sample": "AND"
+        },
+        "source:name": {
+          "dtype": "str",
+          "sample": "healthdate (opneGovernmentDate);SOI"
+        },
+        "source:population": {
+          "dtype": "str",
+          "sample": "India Census 2011"
+        },
+        "wikidata": {
+          "dtype": "str",
+          "sample": "Q6214788"
+        },
+        "wikipedia": {
+          "dtype": "str",
+          "sample": "en:Nalbari"
+        }
+      }
+    },
+    {
+      "file_name": "kamrup_flood_incidents_spatial.geojson",
+      "file_path": "data\\kamrup_synthetic\\flood_records\\kamrup_flood_incidents_spatial.geojson",
+      "format": "GeoJSON",
+      "crs": "EPSG:4326",
+      "crs_epsg": 4326,
+      "feature_count": 43,
+      "geometry_types": [
+        "Point"
+      ],
+      "bounding_box": {
+        "minx": 90.57605,
+        "miny": 25.53243,
+        "maxx": 91.43546,
+        "maxy": 26.39103
+      },
+      "attribute_columns": [
+        "event_id",
+        "year",
+        "month",
+        "day",
+        "start_date",
+        "duration_days",
+        "wave_number",
+        "severity",
+        "cause",
+        "brahmaputra_gauge_m",
+        "danger_level_m",
+        "affected_blocks",
+        "n_blocks_affected",
+        "population_affected",
+        "houses_damaged",
+        "houses_fully_damaged",
+        "crop_area_damaged_ha",
+        "crop_loss_lakh_inr",
+        "embankments_breached",
+        "relief_camps",
+        "people_in_camps",
+        "sdrf_released_lakh_inr",
+        "flood_inundation_area_sqkm",
+        "max_inundation_depth_m",
+        "fatalities",
+        "livestock_lost",
+        "roads_damaged_km",
+        "primary_data_source",
+        "verification_status"
+      ],
+      "column_details": {
+        "event_id": {
+          "dtype": "str",
+          "sample": "KR_FL_2010_001"
+        },
+        "year": {
+          "dtype": "int32",
+          "sample": "2010"
+        },
+        "month": {
+          "dtype": "int32",
+          "sample": "6"
+        },
+        "day": {
+          "dtype": "int32",
+          "sample": "1"
+        },
+        "start_date": {
+          "dtype": "datetime64[ms]",
+          "sample": "2010-06-01 00:00:00"
+        },
+        "duration_days": {
+          "dtype": "int32",
+          "sample": "12"
+        },
+        "wave_number": {
+          "dtype": "int32",
+          "sample": "1"
+        },
+        "severity": {
+          "dtype": "str",
+          "sample": "Low"
+        },
+        "cause": {
+          "dtype": "str",
+          "sample": "Brahmaputra overflow"
+        },
+        "brahmaputra_gauge_m": {
+          "dtype": "float64",
+          "sample": "3.74"
+        },
+        "danger_level_m": {
+          "dtype": "float64",
+          "sample": "5.1"
+        },
+        "affected_blocks": {
+          "dtype": "str",
+          "sample": "Nagarbera"
+        },
+        "n_blocks_affected": {
+          "dtype": "int32",
+          "sample": "1"
+        },
+        "population_affected": {
+          "dtype": "int32",
+          "sample": "1611"
+        },
+        "houses_damaged": {
+          "dtype": "int32",
+          "sample": "134"
+        },
+        "houses_fully_damaged": {
+          "dtype": "int32",
+          "sample": "30"
+        },
+        "crop_area_damaged_ha": {
+          "dtype": "float64",
+          "sample": "65.4"
+        },
+        "crop_loss_lakh_inr": {
+          "dtype": "float64",
+          "sample": "12.24"
+        },
+        "embankments_breached": {
+          "dtype": "int32",
+          "sample": "0"
+        },
+        "relief_camps": {
+          "dtype": "int32",
+          "sample": "1"
+        },
+        "people_in_camps": {
+          "dtype": "int32",
+          "sample": "133"
+        },
+        "sdrf_released_lakh_inr": {
+          "dtype": "float64",
+          "sample": "13.84"
+        },
+        "flood_inundation_area_sqkm": {
+          "dtype": "float64",
+          "sample": "42.4"
+        },
+        "max_inundation_depth_m": {
+          "dtype": "float64",
+          "sample": "0.2"
+        },
+        "fatalities": {
+          "dtype": "int32",
+          "sample": "0"
+        },
+        "livestock_lost": {
+          "dtype": "int32",
+          "sample": "20"
+        },
+        "roads_damaged_km": {
+          "dtype": "float64",
+          "sample": "3.5"
+        },
+        "primary_data_source": {
+          "dtype": "str",
+          "sample": "ASDMA Daily Flood Report (synthetic)"
+        },
+        "verification_status": {
+          "dtype": "str",
+          "sample": "synthetic"
+        }
+      }
+    }
+  ]
+}

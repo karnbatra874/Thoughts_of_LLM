@@ -1,0 +1,22 @@
+{
+  "file": "kamrup_flood_depth_2022.asc",
+  "format": "ESRI ASCII Grid (.asc) \u2014 loadable in QGIS as raster",
+  "equivalent_format": "GeoTIFF (.tif)",
+  "crs": "EPSG:4326 (WGS84)",
+  "description": "Estimated flood inundation depth during 2022 monsoon flood event. Low-lying areas near Brahmaputra river channel show highest inundation (0-3m).",
+  "unit": "metres (m)",
+  "nrows": 50,
+  "ncols": 50,
+  "xllcorner": 90.48,
+  "yllcorner": 25.46,
+  "cellsize": 0.0204,
+  "nodata_value": -9999,
+  "bbox": {
+    "lat_min": 25.46,
+    "lat_max": 26.49,
+    "lon_min": 90.48,
+    "lon_max": 91.5
+  },
+  "source": "Synthetic \u2014 modelled after SRTM/CartoDEM structure for Kamrup district",
+  "temporal_coverage": "N/A (static layer)"
+}

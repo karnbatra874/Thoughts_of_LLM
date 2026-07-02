@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Agentic GIS Orchestrator</title>
+    <!-- Tailwind CSS for clean, simple styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Basic scrollbar styling */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #1e293b; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200 font-sans min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex items-center justify-between shadow-md">
+        <div>
+            <h1 class="text-xl font-bold text-white tracking-tight">Agentic GIS Orchestrator</h1>
+            <p class="text-xs text-slate-400 mt-1">Chain-of-Thought LLM System for Spatial Analysis</p>
+        </div>
+        <div class="flex items-center gap-2">
+            <span class="bg-emerald-500/20 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/30">
+                System Online
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content Grid (2 Columns) -->
+    <main class="flex-1 p-6 grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl mx-auto w-full">
+        
+        <!-- LEFT COLUMN: Input & Reasoning -->
+        <div class="space-y-6 flex flex-col">
+            
+            <!-- 1. Input Section -->
+            <section class="bg-slate-800 rounded-xl border border-slate-700 p-5 shadow-sm">
+                <h2 class="text-sm font-semibold text-white mb-3">1. Spatial Request</h2>
+                
+                <div class="space-y-3">
+                    <textarea id="prompt-input" rows="3" 
+                        class="w-full bg-slate-900 border border-slate-600 rounded-lg p-3 text-sm text-slate-200 focus:outline-none focus:border-blue-500 resize-none"
+                        placeholder="e.g., Calculate buffer zones for pipelines overlaying structural fault-lines in UTM Sector 46N..."></textarea>
+                    
+                    <div class="flex gap-3">
+                        <button onclick="runSimulation()" class="flex-1 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium py-2 rounded-lg transition-colors">
+                            Run Demo (Offline)
+                        </button>
+                        <button onclick="runGeminiPipeline()" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium py-2 rounded-lg transition-colors">
+                            Run with Gemini AI
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Chain of Thought Section -->
+            <section class="bg-slate-800 rounded-xl border border-slate-700 p-5 shadow-sm flex-1 flex flex-col min-h-[300px]">
+                <h2 class="text-sm font-semibold text-white mb-3 flex justify-between items-center">
+                    <span>2. Agent Reasoning (Chain-of-Thought)</span>
+                    <span id="loading-indicator" class="hidden text-xs text-blue-400 animate-pulse">Thinking...</span>
+                </h2>
+                
+                <div id="log-container" class="flex-1 bg-slate-900 rounded-lg border border-slate-700 p-4 overflow-y-auto space-y-3 font-mono text-xs">
+                    <div class="text-slate-500 italic">Agent logs will appear here...</div>
+                </div>
+            </section>
+        </div>
+
+        <!-- RIGHT COLUMN: Output (Map & Code) -->
+        <div class="space-y-6 flex flex-col">
+            
+            <!-- 3. Map Output Section -->
+            <section class="bg-slate-800 rounded-xl border border-slate-700 p-5 shadow-sm h-[350px] flex flex-col">
+                <h2 class="text-sm font-semibold text-white mb-3">3. Map Output Preview</h2>
+                
+                <div class="flex-1 bg-slate-900 rounded-lg border border-slate-700 overflow-hidden relative flex items-center justify-center">
+                    <!-- SVG Map Canvas -->
+                    <svg id="simulation-map" class="w-full h-full" viewBox="0 0 400 400">
+                        <!-- Basic Grid Background -->
+                        <rect width="100%" height="100%" fill="#0f172a" />
+                        <line x1="200" y1="0" x2="200" y2="400" stroke="#334155" stroke-width="1"/>
+                        <line x1="0" y1="200" x2="400" y2="200" stroke="#334155" stroke-width="1"/>
+                        
+                        <!-- Dynamic Map Shapes go here -->
+                        <g id="map-shapes"></g>
+                    </svg>
+
+                    <div class="absolute bottom-3 left-3 bg-slate-800/90 border border-slate-600 px-3 py-2 rounded text-[10px] text-slate-300 backdrop-blur" id="map-legend">
+                        Awaiting execution...
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Generated Code Section -->
+            <section class="bg-slate-800 rounded-xl border border-slate-700 p-5 shadow-sm flex-1 flex flex-col min-h-[300px]">
+                <h2 class="text-sm font-semibold text-white mb-3">4. Generated Python Script</h2>
+                
+                <div class="flex-1 bg-slate-900 rounded-lg border border-slate-700 overflow-hidden flex flex-col">
+                    <div class="bg-slate-800 px-3 py-2 border-b border-slate-700 text-[10px] font-mono text-slate-400">
+                        orchestration_output.py
+                    </div>
+                    <pre class="flex-1 p-4 overflow-auto text-xs font-mono text-blue-200"><code id="code-block"># Python geoprocessing code will appear here...</code></pre>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Javascript Logic -->
+    <script>
+        // Set default prompt on load
+        window.onload = () => {
+            document.getElementById("prompt-input").value = "Find pipeline intersections with fault lines in Kamrup (UTM Zone 46N) and apply a 1.5km safety buffer.";
+        };
+
+        // Standard Demo Data (Offline Mode)
+        const demoData = {
+            thoughtLog: [
+                { status: "Querying RAG...", text: "Fetching metadata for Kamrup pipelines and fault lines." },
+                { status: "Context Found:", text: "kamrup_pipelines.shp (EPSG:4326), kamrup_faults.shp (EPSG:4326)" },
+                { status: "Reasoning (Error Risk):", text: "Layers are in degrees (EPSG:4326). Buffering in degrees will fail." },
+                { status: "Action (Self-Correction):", text: "Applying project_to_kamrup_utm (EPSG:32646) before buffer." },
+                { status: "Executing Tools:", text: "Running geoprocessing.create_buffer(distance=1500)" },
+                { status: "Success:", text: "Geometries processed and ready for map render." }
+            ],
+            code: `import geopandas as gpd
+from src.tools.geoprocessing import project_to_kamrup_utm, intersect_features
+
+# 1. Load Data
+pipelines = gpd.read_file("data/kamrup_synthetic/kamrup_pipelines.shp")
+faults = gpd.read_file("data/kamrup_synthetic/kamrup_faults.shp")
+
+# 2. Agent Auto-Correction: Reproject to local metric system (UTM 46N)
+pipelines_utm = project_to_kamrup_utm(pipelines)
+faults_utm = project_to_kamrup_utm(faults)
+
+# 3. Apply 1500m Buffer to Faults
+risk_zones = faults_utm.copy()
+risk_zones['geometry'] = faults_utm.buffer(1500)
+
+# 4. Intersect
+critical_segments = intersect_features(pipelines_utm, risk_zones)
+print(f"Found {len(critical_segments)} critical pipeline intersections.")`,
+            mapShapes: `
+                <!-- Mock Fault Line -->
+                <path d="M 50,350 Q 200,200 350,50" fill="none" stroke="#ef4444" stroke-width="4"/>
+                <!-- Mock 1.5km Buffer -->
+                <path d="M 50,350 Q 200,200 350,50" fill="none" stroke="#ef4444" stroke-width="40" stroke-opacity="0.2"/>
+                <!-- Mock Pipeline -->
+                <path d="M 50,150 Q 200,100 380,250" fill="none" stroke="#3b82f6" stroke-width="4"/>
+                <!-- Mock Intersection Point -->
+                <circle cx="215" cy="165" r="8" fill="#f59e0b"/>
+            `,
+            legend: `
+                <div class="flex items-center gap-2 mb-1"><span class="w-3 h-3 bg-red-500 rounded-full"></span> Fault Line & Buffer</div>
+                <div class="flex items-center gap-2 mb-1"><span class="w-3 h-3 bg-blue-500 rounded-full"></span> Pipeline</div>
+                <div class="flex items-center gap-2"><span class="w-3 h-3 bg-amber-500 rounded-full"></span> Critical Intersection</div>
+            `
+        };
+
+        // Render data to screen
+        function renderDashboard(data) {
+            // Render Logs
+            const logContainer = document.getElementById('log-container');
+            logContainer.innerHTML = '';
+            data.thoughtLog.forEach(log => {
+                logContainer.innerHTML += `
+                    <div class="border-b border-slate-800 pb-2">
+                        <strong class="text-blue-400">${log.status}</strong> 
+                        <span class="text-slate-300 ml-1">${log.text}</span>
+                    </div>
+                `;
+            });
+
+            // Render Code
+            document.getElementById('code-block').innerText = data.code;
+
+            // Render Map
+            document.getElementById('map-shapes').innerHTML = data.mapShapes;
+            document.getElementById('map-legend').innerHTML = data.legend;
+        }
+
+        // Run Offline Demo
+        function runSimulation() {
+            document.getElementById('loading-indicator').classList.remove('hidden');
+            document.getElementById('log-container').innerHTML = '<div class="text-slate-500 italic">Processing spatial request...</div>';
+            
+            setTimeout(() => {
+                renderDashboard(demoData);
+                document.getElementById('loading-indicator').classList.add('hidden');
+            }, 800);
+        }
+
+        // Gemini API Call
+        async function runGeminiPipeline() {
+            const promptInput = document.getElementById("prompt-input").value.trim();
+            if (!promptInput) return alert("Please enter a prompt.");
+
+            document.getElementById('loading-indicator').classList.remove('hidden');
+            document.getElementById('log-container').innerHTML = '<div class="text-blue-400 animate-pulse">Contacting Gemini LLM Orchestrator...</div>';
+
+            const apiKey = ""; // Runtime automatically provisions the key if blank
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+            
+            const sysInstruction = `You are a Geospatial AI Agent. Return a JSON object with: 
+            1. 'thoughtLog': array of objects {status: string, text: string} showing spatial reasoning (like CRS checks). 
+            2. 'code': a valid python geopandas script. 
+            3. 'mapShapes': basic SVG paths/circles to display the result in a 400x400 box.
+            4. 'legend': simple HTML string explaining map colors.`;
+
+            const schemaSpec = {
+                type: "OBJECT",
+                properties: {
+                    thoughtLog: {
+                        type: "ARRAY",
+                        items: {
+                            type: "OBJECT",
+                            properties: { status: { type: "STRING" }, text: { type: "STRING" } },
+                            required: ["status", "text"]
+                        }
+                    },
+                    code: { type: "STRING" },
+                    mapShapes: { type: "STRING" },
+                    legend: { type: "STRING" }
+                },
+                required: ["thoughtLog", "code", "mapShapes", "legend"]
+            };
+
+            const payload = {
+                contents: [{ parts: [{ text: promptInput }] }],
+                systemInstruction: { parts: [{ text: sysInstruction }] },
+                generationConfig: { responseMimeType: "application/json", responseSchema: schemaSpec }
+            };
+
+            try {
+                const response = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+                const data = await response.json();
+                
+                if (data.candidates && data.candidates[0].content.parts[0].text) {
+                    const parsedData = JSON.parse(data.candidates[0].content.parts[0].text);
+                    renderDashboard(parsedData);
+                } else {
+                    throw new Error("No valid response from API");
+                }
+            } catch (err) {
+                console.error(err);
+                document.getElementById('log-container').innerHTML = `<div class="text-red-400">API Error. Showing offline simulation instead.</div>`;
+                setTimeout(runSimulation, 1000);
+            } finally {
+                document.getElementById('loading-indicator').classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>
